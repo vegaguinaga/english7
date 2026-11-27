@@ -1,0 +1,342 @@
+{
+  "vocabulary": [
+    { "en": "Hello", "es": "Hola", "icon": { "emoji": "👋" }, "example": "Hello! How are you?" },
+    { "en": "Good morning", "es": "Buenos días", "icon": { "emoji": "🌅" }, "example": "Good morning, teacher!" },
+    { "en": "Good afternoon", "es": "Buenas tardes", "icon": { "emoji": "☀️" }, "example": "Good afternoon, Mrs. López." },
+    { "en": "Good evening", "es": "Buenas noches (al llegar)", "icon": { "emoji": "🌆" }, "example": "Good evening, Dad." },
+    { "en": "Good night", "es": "Buenas noches (al despedirse)", "icon": { "emoji": "🌙" }, "example": "Good night! See you tomorrow." },
+    { "en": "Goodbye", "es": "Adiós", "icon": { "emoji": "🙋" }, "example": "Goodbye, see you later!" },
+    { "en": "See you later", "es": "Nos vemos luego", "icon": { "emoji": "👀" }, "example": "Bye, Ana. See you later!" },
+    { "en": "Nice to meet you", "es": "Mucho gusto", "icon": { "emoji": "🤝" }, "example": "I'm Carlos. Nice to meet you." },
+    { "en": "name", "es": "nombre", "icon": { "emoji": "🏷️" }, "example": "My name is Sofía." },
+    { "en": "last name", "es": "apellido", "icon": { "emoji": "📛" }, "example": "My last name is Martínez." },
+    { "en": "age", "es": "edad", "icon": { "emoji": "🎂" }, "example": "I am twelve years old." },
+    { "en": "address", "es": "dirección", "icon": { "emoji": "🏠" }, "example": "My address is 25 Central Street." },
+    { "en": "phone number", "es": "número de teléfono", "icon": { "emoji": "📱" }, "example": "My phone number is 8888-1234." },
+    { "en": "email", "es": "correo electrónico", "icon": { "emoji": "📧" }, "example": "My email is ana@mail.com." },
+    { "en": "country", "es": "país", "icon": { "emoji": "🌎" }, "example": "My country is Nicaragua." },
+    { "en": "Nicaraguan", "es": "nicaragüense", "icon": { "emoji": "🇳🇮" }, "example": "I am Nicaraguan." },
+    { "en": "Costa Rican", "es": "costarricense", "icon": { "emoji": "🇨🇷" }, "example": "Luis is Costa Rican." },
+    { "en": "Honduran", "es": "hondureño / hondureña", "icon": { "emoji": "🇭🇳" }, "example": "María is Honduran." },
+    { "en": "Mexican", "es": "mexicano / mexicana", "icon": { "emoji": "🇲🇽" }, "example": "They are Mexican." },
+    { "en": "American", "es": "estadounidense", "icon": { "emoji": "🇺🇸" }, "example": "Mr. Smith is American." },
+    { "en": "friend", "es": "amigo / amiga", "icon": { "emoji": "🧑‍🤝‍🧑" }, "example": "This is my friend, Pedro." },
+    { "en": "classmate", "es": "compañero de clase", "icon": { "emoji": "🎒" }, "example": "Ana is my classmate." },
+    { "en": "teacher", "es": "profesor / profesora", "icon": { "emoji": "👩‍🏫" }, "example": "She is my English teacher." },
+    { "en": "student", "es": "estudiante", "icon": { "emoji": "🧑‍🎓" }, "example": "I am a student in seventh grade." }
+  ],
+
+  "grammar": [
+    {
+      "title": "Verb to be (ser / estar)",
+      "explanation": "El verbo **to be** significa *ser* o *estar*. Cambia según la persona: **am**, **is**, **are**.\nEn conversación usamos contracciones: I am → **I'm**.",
+      "table": {
+        "headers": ["Persona", "Forma completa", "Contracción", "Español"],
+        "rows": [
+          ["I", "I am", "I'm", "yo soy / estoy"],
+          ["You", "you are", "you're", "tú eres / estás"],
+          ["He", "he is", "he's", "él es / está"],
+          ["She", "she is", "she's", "ella es / está"],
+          ["It", "it is", "it's", "eso es / está"],
+          ["We", "we are", "we're", "nosotros somos / estamos"],
+          ["They", "they are", "they're", "ellos son / están"]
+        ]
+      },
+      "examples": [
+        { "en": "I'm a student.", "es": "Soy estudiante." },
+        { "en": "She is my teacher.", "es": "Ella es mi profesora." },
+        { "en": "We are Nicaraguan.", "es": "Somos nicaragüenses." }
+      ],
+      "tip": "**I** (yo) siempre se escribe con mayúscula, aunque esté en medio de la oración."
+    },
+    {
+      "title": "Negative and questions with to be",
+      "explanation": "Para negar, agrega **not**: I am **not**, he is **not** (isn't), they are **not** (aren't).\nPara preguntar, pon el verbo **antes** de la persona: **Are you** Nicaraguan?",
+      "table": {
+        "headers": ["Afirmativo", "Negativo", "Pregunta"],
+        "rows": [
+          ["I am 12.", "I'm not 12.", "Am I…?"],
+          ["He is Mexican.", "He isn't Mexican.", "Is he Mexican?"],
+          ["They are friends.", "They aren't friends.", "Are they friends?"]
+        ]
+      },
+      "examples": [
+        { "en": "Are you a student? Yes, I am.", "es": "¿Eres estudiante? Sí, lo soy." },
+        { "en": "Is she Honduran? No, she isn't.", "es": "¿Ella es hondureña? No, no lo es." }
+      ],
+      "tip": "En respuestas cortas afirmativas no se usa contracción: *Yes, I am.* (no *Yes, I'm.*)"
+    },
+    {
+      "title": "Wh- questions for personal information",
+      "explanation": "Usamos palabras de pregunta para pedir información personal.",
+      "table": {
+        "headers": ["Pregunta", "Respuesta", "Español"],
+        "rows": [
+          ["What's your name?", "My name is Ana.", "¿Cómo te llamas?"],
+          ["How old are you?", "I'm 12 years old.", "¿Cuántos años tienes?"],
+          ["Where are you from?", "I'm from Nicaragua.", "¿De dónde eres?"],
+          ["What's your phone number?", "It's 8888-1234.", "¿Cuál es tu número de teléfono?"],
+          ["How are you?", "I'm fine, thank you.", "¿Cómo estás?"]
+        ]
+      },
+      "examples": [
+        { "en": "Where are you from? I'm from Granada, Nicaragua.", "es": "¿De dónde eres? Soy de Granada, Nicaragua." },
+        { "en": "How old is your brother? He is fifteen.", "es": "¿Cuántos años tiene tu hermano? Tiene quince." }
+      ],
+      "tip": "En inglés la edad se dice con **to be**: *I am 12* (no *I have 12*)."
+    },
+    {
+      "title": "Possessive adjectives (my, your, his, her)",
+      "explanation": "Indican de quién es algo. Van **antes** del sustantivo y no cambian en plural.",
+      "table": {
+        "headers": ["Persona", "Posesivo", "Ejemplo"],
+        "rows": [
+          ["I", "my", "**My** name is Luis."],
+          ["you", "your", "What's **your** name?"],
+          ["he", "his", "**His** name is Pedro."],
+          ["she", "her", "**Her** name is Ana."],
+          ["we", "our", "**Our** teacher is nice."],
+          ["they", "their", "**Their** school is big."]
+        ]
+      },
+      "examples": [
+        { "en": "His name is Mario and her name is Rosa.", "es": "Él se llama Mario y ella se llama Rosa." }
+      ],
+      "tip": "**his** = de él, **her** = de ella. ¡No los confundas!"
+    }
+  ],
+
+  "skills": {
+    "listening": [
+      {
+        "id": "l1", "type": "listen-choice", "title": "Greetings",
+        "instructions": "Escucha el saludo y elige el dibujo correcto.",
+        "items": [
+          { "audio": "Good morning!", "options": [{ "emoji": "🌅", "text": "Good morning" }, { "emoji": "🌙", "text": "Good night" }, { "emoji": "☀️", "text": "Good afternoon" }], "answer": 0 },
+          { "audio": "Good night!", "options": [{ "emoji": "🌅", "text": "Good morning" }, { "emoji": "🌙", "text": "Good night" }, { "emoji": "👋", "text": "Hello" }], "answer": 1 },
+          { "audio": "Good afternoon!", "options": [{ "emoji": "🌆", "text": "Good evening" }, { "emoji": "☀️", "text": "Good afternoon" }, { "emoji": "🌅", "text": "Good morning" }], "answer": 1 },
+          { "audio": "Nice to meet you!", "options": [{ "emoji": "🙋", "text": "Goodbye" }, { "emoji": "👀", "text": "See you later" }, { "emoji": "🤝", "text": "Nice to meet you" }], "answer": 2 }
+        ]
+      },
+      {
+        "id": "l2", "type": "listen-choice", "title": "Countries and numbers",
+        "instructions": "Escucha y elige la respuesta correcta.",
+        "items": [
+          { "audio": "I'm from Costa Rica.", "prompt": "Where is he from?", "options": [{ "emoji": "🇳🇮", "text": "Nicaragua" }, { "emoji": "🇨🇷", "text": "Costa Rica" }, { "emoji": "🇲🇽", "text": "Mexico" }], "answer": 1, "voice": "male" },
+          { "audio": "She is Honduran.", "prompt": "What nationality is she?", "options": [{ "emoji": "🇭🇳", "text": "Honduran" }, { "emoji": "🇺🇸", "text": "American" }, { "emoji": "🇳🇮", "text": "Nicaraguan" }], "answer": 0 },
+          { "audio": "I am thirteen years old.", "prompt": "How old is she?", "options": ["30", "13", "3"], "answer": 1, "voice": "female", "explain": "*thirteen* = 13. *thirty* = 30." },
+          { "audio": "My phone number is 8 6 4 5, 2 1 9 0.", "prompt": "What is his phone number?", "options": ["8645-2190", "8654-2109", "8645-2910"], "answer": 0, "voice": "male" }
+        ]
+      },
+      {
+        "id": "l3", "type": "listen-tf", "title": "Meeting a new classmate",
+        "instructions": "Escucha el diálogo. Luego di si cada oración es verdadera (True) o falsa (False).",
+        "dialogue": [
+          { "speaker": "Ana", "text": "Hi! I'm Ana. What's your name?", "voice": "female" },
+          { "speaker": "Tom", "text": "Hello, Ana. My name is Tom. Nice to meet you.", "voice": "male" },
+          { "speaker": "Ana", "text": "Nice to meet you too. Where are you from, Tom?", "voice": "female" },
+          { "speaker": "Tom", "text": "I'm from the United States. I'm American.", "voice": "male" },
+          { "speaker": "Ana", "text": "Cool! I'm from León, Nicaragua. How old are you?", "voice": "female" },
+          { "speaker": "Tom", "text": "I'm twelve. And you?", "voice": "male" },
+          { "speaker": "Ana", "text": "I'm thirteen.", "voice": "female" }
+        ],
+        "statements": [
+          { "text": "The boy's name is Tom.", "answer": true },
+          { "text": "Tom is Nicaraguan.", "answer": false, "explain": "Tom says: *I'm American.*" },
+          { "text": "Ana is from León.", "answer": true },
+          { "text": "Tom is thirteen years old.", "answer": false, "explain": "Tom is **twelve**. Ana is thirteen." }
+        ]
+      },
+      {
+        "id": "l4", "type": "dictation", "title": "Short dictation",
+        "instructions": "Escucha y escribe la oración. Puedes escucharla varias veces.",
+        "items": [
+          { "answer": "My name is Carlos." },
+          { "answer": "I am from Nicaragua." },
+          { "answer": "Nice to meet you." },
+          { "answer": "How old are you?" }
+        ]
+      }
+    ],
+
+    "reading": [
+      {
+        "id": "r1", "type": "reading", "title": "Hi, I'm Sofía!",
+        "instructions": "Lee el texto y responde las preguntas.",
+        "textTitle": "About me", "icon": { "emoji": "👧" },
+        "text": "Hi! My name is Sofía Martínez. I'm twelve years old and I'm Nicaraguan. I'm from Masaya, but now I live in Managua. I'm a student in seventh grade. My best friend is Daniela. She is thirteen and she is from Estelí. Our English teacher is Mr. Brown. He is American and he is very nice.",
+        "questions": [
+          { "q": "What is her last name?", "options": ["Sofía", "Martínez", "Daniela"], "answer": 1 },
+          { "q": "How old is Sofía?", "options": ["12", "13", "7"], "answer": 0 },
+          { "q": "Where is Sofía from?", "options": ["Managua", "Estelí", "Masaya"], "answer": 2, "explain": "*I'm from Masaya, but now I live in Managua.*" },
+          { "q": "Who is Mr. Brown?", "options": ["Her friend", "Her English teacher", "Her father"], "answer": 1 },
+          { "q": "Mr. Brown is…", "options": ["Nicaraguan", "Mexican", "American"], "answer": 2 }
+        ]
+      },
+      {
+        "id": "r2", "type": "match", "title": "Questions and answers",
+        "instructions": "Relaciona cada pregunta con su respuesta.",
+        "pairs": [
+          ["What's your name?", "My name is Luis."],
+          ["How old are you?", "I'm 12 years old."],
+          ["Where are you from?", "I'm from Rivas."],
+          ["How are you?", "I'm fine, thanks."],
+          ["What's your email?", "It's luis@mail.com."]
+        ]
+      },
+      {
+        "id": "r3", "type": "match", "title": "Countries and nationalities",
+        "instructions": "Relaciona cada país con su nacionalidad.",
+        "pairs": [
+          ["Nicaragua", "Nicaraguan"],
+          ["Costa Rica", "Costa Rican"],
+          ["Honduras", "Honduran"],
+          ["Mexico", "Mexican"],
+          ["The United States", "American"]
+        ],
+        "explain": "Las nacionalidades en inglés siempre empiezan con mayúscula."
+      },
+      {
+        "id": "r4", "type": "reading", "title": "A student ID card",
+        "instructions": "Lee la ficha del estudiante y responde.",
+        "textTitle": "Student ID", "icon": { "emoji": "🪪" },
+        "text": "**Name:** Kevin\n**Last name:** Rodríguez\n**Age:** 13\n**Nationality:** Honduran\n**City:** Chinandega\n**Phone number:** 8752-3304\n**School:** Rubén Darío Institute",
+        "questions": [
+          { "q": "Is Kevin Nicaraguan?", "options": ["Yes, he is.", "No, he isn't."], "answer": 1, "explain": "He is **Honduran**." },
+          { "q": "How old is Kevin?", "options": ["He is 13.", "He is 30.", "He is 3."], "answer": 0 },
+          { "q": "Where does Kevin live?", "options": ["In Honduras", "In Chinandega", "In León"], "answer": 1 }
+        ]
+      }
+    ],
+
+    "writing": [
+      {
+        "id": "w1", "type": "gap-fill", "title": "Verb to be",
+        "instructions": "Elige **am**, **is** o **are** para completar cada oración.",
+        "wordBank": ["am", "is", "are"],
+        "items": [
+          { "text": "I ___ a student.", "answers": ["am"] },
+          { "text": "She ___ my friend.", "answers": ["is"] },
+          { "text": "We ___ from Nicaragua.", "answers": ["are"] },
+          { "text": "Mr. Brown ___ American.", "answers": ["is"] },
+          { "text": "You ___ twelve years old.", "answers": ["are"] },
+          { "text": "They ___ my classmates, and he ___ my teacher.", "answers": ["are", "is"] }
+        ]
+      },
+      {
+        "id": "w2", "type": "gap-fill", "title": "My, your, his, her",
+        "instructions": "Escribe el posesivo correcto: **my**, **your**, **his** o **her**.",
+        "items": [
+          { "text": "I'm Ana. ___ name is Ana.", "answers": ["my"] },
+          { "text": "This is Pedro. ___ last name is Pérez.", "answers": ["his"] },
+          { "text": "This is Rosa. ___ phone number is 8123-4567.", "answers": ["her"] },
+          { "text": "What's ___ name? — My name is Tom.", "answers": ["your"] }
+        ]
+      },
+      {
+        "id": "w3", "type": "word-order", "title": "Make sentences",
+        "instructions": "Toca las palabras en el orden correcto.",
+        "items": [
+          { "answer": "My name is Daniel." },
+          { "answer": "Where are you from?" },
+          { "answer": "I am twelve years old." },
+          { "answer": "She is from Costa Rica." },
+          { "answer": "Nice to meet you." }
+        ]
+      },
+      {
+        "id": "w4", "type": "form-fill", "title": "Registration form",
+        "instructions": "Completa la ficha con **tu** información en inglés.",
+        "formTitle": "📝 English Club – Registration",
+        "fields": [
+          { "label": "First name", "labelEs": "nombre", "kind": "name", "placeholder": "Ana" },
+          { "label": "Last name", "labelEs": "apellido", "kind": "name", "placeholder": "López" },
+          { "label": "Age", "labelEs": "edad", "kind": "number", "min": 9, "max": 18, "placeholder": "12" },
+          { "label": "Nationality", "labelEs": "nacionalidad", "kind": "choice", "accept": ["Nicaraguan", "Costa Rican", "Honduran", "Salvadoran", "Guatemalan", "Mexican", "Panamanian", "American"], "placeholder": "Nicaraguan" },
+          { "label": "Phone number", "labelEs": "teléfono", "kind": "phone", "placeholder": "8888-1234" },
+          { "label": "Email", "labelEs": "correo", "kind": "email", "placeholder": "ana@mail.com" }
+        ]
+      },
+      {
+        "id": "w5", "type": "guided-writing", "title": "Introduce yourself",
+        "instructions": "Escribe de 3 a 5 oraciones para presentarte. Usa la plantilla.",
+        "template": ["Hello! My name is ___.", "I am ___ years old.", "I am from ___. I am ___ (nationality).", "My best friend is ___."],
+        "minSentences": 3,
+        "placeholder": "Hello! My name is…",
+        "checks": [
+          { "pattern": "my name is|\\bi am (?!from\\b)[a-z]+\\b(?! years)", "label": "Dijiste tu nombre.", "hint": "Escribe tu nombre: *My name is…*" },
+          { "pattern": "years old|i am [a-z]+( [a-z]+)? years", "label": "Dijiste tu edad.", "hint": "Escribe tu edad: *I am 12 years old.*" },
+          { "pattern": "from", "label": "Dijiste de dónde eres.", "hint": "Escribe de dónde eres: *I am from Nicaragua.*" }
+        ],
+        "model": "Hello! My name is Luis. I am twelve years old. I am from Jinotepe. I am Nicaraguan. My best friend is Kevin."
+      }
+    ],
+
+    "speaking": [
+      {
+        "id": "s1", "type": "shadowing", "title": "Repeat the greetings",
+        "instructions": "Escucha y repite cada frase en voz alta.",
+        "items": [
+          { "text": "Hello! How are you?", "es": "¡Hola! ¿Cómo estás?" },
+          { "text": "I'm fine, thank you.", "es": "Estoy bien, gracias." },
+          { "text": "Nice to meet you.", "es": "Mucho gusto." },
+          { "text": "Good morning, teacher.", "es": "Buenos días, profesor(a)." },
+          { "text": "See you later!", "es": "¡Nos vemos luego!" }
+        ]
+      },
+      {
+        "id": "s2", "type": "speak-answer", "title": "Answer about you",
+        "instructions": "Escucha la pregunta y responde en voz alta con tu información.",
+        "items": [
+          { "question": "What's your name?", "accept": ["my name is", "i am \\w+", "^\\w+$"], "example": "My name is Ana." },
+          { "question": "How old are you?", "accept": ["years old", "i am (\\w+ )?(nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen)", "^(\\w+ )?(nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen)$"], "example": "I am twelve years old." },
+          { "question": "Where are you from?", "accept": ["from", "nicaragua"], "example": "I am from Nicaragua." },
+          { "question": "How are you today?", "accept": ["fine", "good", "great", "ok", "okay", "well", "tired", "happy"], "example": "I'm fine, thank you." }
+        ]
+      },
+      {
+        "id": "s3", "type": "roleplay", "title": "First day at school",
+        "instructions": "Conversa con tu nueva compañera, Emma. Ella habla primero.",
+        "scene": "Es el primer día de clases y conoces a una estudiante nueva.",
+        "appName": "Emma", "appVoice": "female",
+        "turns": [
+          { "role": "app", "text": "Hi! I'm Emma. What's your name?" },
+          { "role": "student", "expected": "My name is ___.", "accept": ["my name is", "i am", "i'm"], "example": "My name is Carlos." },
+          { "role": "app", "text": "Nice to meet you!" },
+          { "role": "student", "expected": "Nice to meet you too.", "accept": ["nice to meet you"] },
+          { "role": "app", "text": "Where are you from?" },
+          { "role": "student", "expected": "I am from ___.", "accept": ["from"], "example": "I am from Managua." },
+          { "role": "app", "text": "Cool! How old are you?" },
+          { "role": "student", "expected": "I am ___ years old.", "accept": ["years old", "i am \\w+", "^\\w+$"], "example": "I am twelve years old." },
+          { "role": "app", "text": "Me too! Well, see you later!" },
+          { "role": "student", "expected": "See you later!", "accept": ["see you", "bye", "goodbye"] }
+        ]
+      }
+    ]
+  },
+
+  "quiz": [
+    { "skill": "listening", "type": "listen-choice", "instructions": "Escucha y elige.", "items": [
+      { "audio": "Good evening!", "options": [{ "emoji": "🌆", "text": "Good evening" }, { "emoji": "🌅", "text": "Good morning" }, { "emoji": "🙋", "text": "Goodbye" }], "answer": 0 } ] },
+    { "skill": "listening", "type": "listen-choice", "instructions": "Escucha y elige el número.", "items": [
+      { "audio": "I'm fourteen years old.", "options": ["40", "14", "4"], "answer": 1 } ] },
+    { "skill": "listening", "type": "dictation", "instructions": "Escucha y escribe.", "items": [
+      { "answer": "Where are you from?" } ] },
+    { "skill": "reading", "type": "reading", "instructions": "Lee y responde.",
+      "text": "Hello! I'm Pedro. I'm thirteen years old. I'm from Bluefields, Nicaragua. My sister is Lucía. She is ten.",
+      "questions": [ { "q": "How old is Lucía?", "options": ["13", "10", "12"], "answer": 1 } ] },
+    { "skill": "reading", "type": "reading", "instructions": "Lee y responde.",
+      "text": "Hi, my name is Valeria. I'm Mexican. My friend Luis is Costa Rican.",
+      "questions": [ { "q": "Where is Luis from?", "options": ["Mexico", "Nicaragua", "Costa Rica"], "answer": 2 } ] },
+    { "skill": "writing", "type": "gap-fill", "instructions": "Completa con am, is o are.", "items": [
+      { "text": "They ___ from Honduras.", "answers": ["are"], "wordBank": ["am", "is", "are"] } ] },
+    { "skill": "writing", "type": "gap-fill", "instructions": "Escribe his o her.", "items": [
+      { "text": "This is Marta. ___ email is marta@mail.com.", "answers": ["her"] } ] },
+    { "skill": "writing", "type": "word-order", "instructions": "Ordena las palabras.", "items": [
+      { "answer": "How old are you?" } ] },
+    { "skill": "speaking", "type": "shadowing", "instructions": "Escucha y repite.", "items": [
+      { "text": "Nice to meet you too." } ] },
+    { "skill": "speaking", "type": "speak-answer", "instructions": "Responde en voz alta.", "items": [
+      { "question": "Where are you from?", "accept": ["from", "nicaragua"], "example": "I am from Nicaragua." } ] }
+  ]
+}

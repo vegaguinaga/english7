@@ -1,0 +1,10 @@
+{
+  "units": [
+    { "id": "unit1", "file": "data/unit1.json", "available": true,  "emoji": "👋", "color": "#1565C0", "title": "Nice to Meet You", "titleEs": "Saludos e información personal", "badge": { "emoji": "🤝", "name": "Friendly Speaker" } },
+    { "id": "unit2", "file": "data/unit2.json", "available": false, "emoji": "👨‍👩‍👧", "color": "#2E7D32", "title": "My Family", "titleEs": "Mi familia" },
+    { "id": "unit3", "file": "data/unit3.json", "available": false, "emoji": "🏫", "color": "#6A1B9A", "title": "My School", "titleEs": "Mi escuela" },
+    { "id": "unit4", "file": "data/unit4.json", "available": false, "emoji": "⏰", "color": "#EF6C00", "title": "My Daily Routine", "titleEs": "Mi rutina diaria" },
+    { "id": "unit5", "file": "data/unit5.json", "available": false, "emoji": "🍽️", "color": "#C62828", "title": "Food and Drinks", "titleEs": "Comidas y bebidas" },
+    { "id": "unit6", "file": "data/unit6.json", "available": false, "emoji": "🚦", "color": "#00838F", "title": "Places and Signs", "titleEs": "Lugares y señales" }
+  ]
+}

@@ -11,13 +11,14 @@
 - PWA: `manifest.webmanifest` + `sw.js` + íconos en `assets/icons/` ("E7" provisional).
 - `data/units.json` (6 unidades, solo unit1 disponible) y `data/unit1.json` "Nice to Meet You":
   24 palabras, 4 temas de gramática, 16 ejercicios (4 por habilidad) y quiz de 10 preguntas.
-- `data/unit2.json` "My Family" y `data/unit3.json` "My School" con la misma estructura.
+- `data/unit2.json` "My Family" , `data/unit3.json` "My School" y `data/unit4.json` "My Daily Routine" con la misma estructura.
 - `tools/check-data.mjs`: valida los JSON (`node tools/check-data.mjs`). Correrlo tras editar una unidad.
-- Probado a 360px con Chrome headless: todas las vistas y ejercicios cargan sin error.
+- Prueba completa con Playwright (26/11/2026): los 48 ejercicios y 3 quiz se resuelven al 100%, insignias, modo oscuro,
+  velocidad, modo docente (PIN, reiniciar), cambio de modo si falla el reconocimiento de voz y uso sin conexión: todo OK.
 
 ## Falta
-1. Probar sin conexión en un celular real (el service worker no se probó en headless).
-2. Unidades 4 a 6 (una por una; al agregar una: `available: true` en `units.json`, añadirla a `ASSETS` en `sw.js` y subir `CACHE`), señales en SVG en `assets/svg/` para la Unidad 6.
+1. Probar en un celular real la voz (TTS) y el micrófono: en la prueba automática se simularon.
+2. Unidades 5 y 6 (una por una; al agregar una: `available: true` en `units.json`, añadirla a `ASSETS` en `sw.js` y subir `CACHE`), señales en SVG en `assets/svg/` para la Unidad 6.
 3. README en español (cómo abrir, publicar en GitHub Pages/Netlify, agregar unidades).
 
 ## Cómo abrirla

@@ -1,0 +1,335 @@
+{
+  "vocabulary": [
+    { "en": "wake up", "es": "despertarse", "icon": { "emoji": "⏰" }, "example": "I wake up at six o'clock." },
+    { "en": "get up", "es": "levantarse", "icon": { "emoji": "🛏️" }, "example": "I get up at six fifteen." },
+    { "en": "take a shower", "es": "bañarse / ducharse", "icon": { "emoji": "🚿" }, "example": "I take a shower every morning." },
+    { "en": "brush my teeth", "es": "cepillarme los dientes", "icon": { "emoji": "🪥" }, "example": "I brush my teeth after breakfast." },
+    { "en": "get dressed", "es": "vestirse", "icon": { "emoji": "👕" }, "example": "I get dressed for school." },
+    { "en": "have breakfast", "es": "desayunar", "icon": { "emoji": "🍳" }, "example": "I have breakfast with my family." },
+    { "en": "go to school", "es": "ir a la escuela", "icon": { "emoji": "🚌" }, "example": "I go to school by bus." },
+    { "en": "have lunch", "es": "almorzar", "icon": { "emoji": "🥪" }, "example": "We have lunch at twelve thirty." },
+    { "en": "do homework", "es": "hacer la tarea", "icon": { "emoji": "📝" }, "example": "I do my homework in the afternoon." },
+    { "en": "play soccer", "es": "jugar fútbol", "icon": { "emoji": "⚽" }, "example": "My brother plays soccer after school." },
+    { "en": "watch TV", "es": "ver televisión", "icon": { "emoji": "📺" }, "example": "I watch TV in the evening." },
+    { "en": "help at home", "es": "ayudar en casa", "icon": { "emoji": "🧹" }, "example": "I help at home on Saturdays." },
+    { "en": "have dinner", "es": "cenar", "icon": { "emoji": "🍽️" }, "example": "We have dinner at seven." },
+    { "en": "go to bed", "es": "acostarse / ir a dormir", "icon": { "emoji": "😴" }, "example": "I go to bed at nine thirty." },
+    { "en": "always", "es": "siempre", "icon": { "emoji": "💯" }, "example": "I always brush my teeth." },
+    { "en": "usually", "es": "usualmente / casi siempre", "icon": { "emoji": "🔁" }, "example": "I usually walk to school." },
+    { "en": "sometimes", "es": "a veces", "icon": { "emoji": "🤷" }, "example": "I sometimes play video games." },
+    { "en": "never", "es": "nunca", "icon": { "emoji": "🚫" }, "example": "I never drink coffee." },
+    { "en": "Monday", "es": "lunes", "icon": { "emoji": "1️⃣" }, "example": "I have English on Monday." },
+    { "en": "Wednesday", "es": "miércoles", "icon": { "emoji": "3️⃣" }, "example": "We play soccer on Wednesday." },
+    { "en": "Saturday", "es": "sábado", "icon": { "emoji": "6️⃣" }, "example": "I help my mom on Saturday." },
+    { "en": "Sunday", "es": "domingo", "icon": { "emoji": "7️⃣" }, "example": "We go to church on Sunday." },
+    { "en": "o'clock", "es": "en punto", "icon": { "emoji": "🕖" }, "example": "It's seven o'clock." },
+    { "en": "half past", "es": "y media", "icon": { "emoji": "🕢" }, "example": "It's half past seven." }
+  ],
+
+  "grammar": [
+    {
+      "title": "Simple present (presente simple)",
+      "explanation": "Usamos el presente simple para hablar de **rutinas** y cosas que hacemos siempre.\nCon **he, she, it** el verbo lleva **-s** o **-es**.",
+      "table": {
+        "headers": ["Persona", "Verbo", "Ejemplo"],
+        "rows": [
+          ["I / You / We / They", "play", "I **play** soccer."],
+          ["He / She / It", "play**s**", "She **plays** soccer."],
+          ["He / She / It", "watch**es**, go**es**, do**es**", "He **watches** TV."],
+          ["He / She / It", "ha**s**", "She **has** breakfast at 6."]
+        ]
+      },
+      "examples": [
+        { "en": "I get up at six. My sister gets up at seven.", "es": "Yo me levanto a las seis. Mi hermana se levanta a las siete." },
+        { "en": "My father goes to work by bus.", "es": "Mi papá va al trabajo en bus." }
+      ],
+      "tip": "Verbos que terminan en *-ch, -sh, -o, -x* llevan **-es**: *watches, brushes, goes*. Y *have* cambia a **has**."
+    },
+    {
+      "title": "Negatives and questions: do / does",
+      "explanation": "Para negar usamos **don't** (I, you, we, they) o **doesn't** (he, she, it) + verbo **sin -s**.\nPara preguntar ponemos **Do** o **Does** al inicio.",
+      "table": {
+        "headers": ["", "I / You / We / They", "He / She / It"],
+        "rows": [
+          ["Negativo", "I **don't** watch TV.", "She **doesn't** watch TV."],
+          ["Pregunta", "**Do** you play soccer?", "**Does** he play soccer?"],
+          ["Respuesta", "Yes, I do. / No, I don't.", "Yes, he does. / No, he doesn't."]
+        ]
+      },
+      "examples": [
+        { "en": "Does your mother work? Yes, she does.", "es": "¿Tu mamá trabaja? Sí." },
+        { "en": "What time do you go to bed?", "es": "¿A qué hora te acuestas?" }
+      ],
+      "tip": "Con *does* o *doesn't* el verbo NO lleva -s: *Does she play…?* (no *Does she plays…?*)."
+    },
+    {
+      "title": "Telling the time",
+      "explanation": "Preguntamos **What time is it?** y respondemos **It's…**.\nPara decir *a las* usamos **at**: *at seven o'clock*.",
+      "table": {
+        "headers": ["Hora", "Forma fácil", "Otra forma"],
+        "rows": [
+          ["7:00", "seven o'clock", "—"],
+          ["7:15", "seven fifteen", "a quarter past seven"],
+          ["7:30", "seven thirty", "half past seven"],
+          ["7:45", "seven forty-five", "a quarter to eight"]
+        ]
+      },
+      "examples": [
+        { "en": "What time is it? It's nine thirty.", "es": "¿Qué hora es? Son las nueve y media." },
+        { "en": "I have lunch at twelve o'clock.", "es": "Almuerzo a las doce en punto." }
+      ],
+      "tip": "Usa **in the morning** (mañana), **in the afternoon** (tarde) y **in the evening / at night** (noche)."
+    },
+    {
+      "title": "Adverbs of frequency",
+      "explanation": "Dicen **con qué frecuencia** hacemos algo. Van **antes** del verbo, pero **después** de *am/is/are*.",
+      "table": {
+        "headers": ["Adverbio", "%", "Ejemplo"],
+        "rows": [
+          ["always", "100%", "I **always** have breakfast."],
+          ["usually", "80%", "She **usually** walks to school."],
+          ["sometimes", "50%", "We **sometimes** watch movies."],
+          ["never", "0%", "He **never** gets up late."]
+        ]
+      },
+      "examples": [
+        { "en": "I am never late for school.", "es": "Nunca llego tarde a la escuela." },
+        { "en": "My brother usually plays soccer on Saturday.", "es": "Mi hermano usualmente juega fútbol los sábados." }
+      ],
+      "tip": "Con **never** no se usa *don't*: *I never watch TV* (no *I don't never…*)."
+    }
+  ],
+
+  "skills": {
+    "listening": [
+      {
+        "id": "l1", "type": "listen-choice", "title": "Daily activities",
+        "instructions": "Escucha y elige el dibujo correcto.",
+        "items": [
+          { "audio": "I take a shower.", "options": [{ "emoji": "🚿", "text": "take a shower" }, { "emoji": "🍳", "text": "have breakfast" }, { "emoji": "😴", "text": "go to bed" }], "answer": 0 },
+          { "audio": "I brush my teeth.", "options": [{ "emoji": "👕", "text": "get dressed" }, { "emoji": "🪥", "text": "brush my teeth" }, { "emoji": "⏰", "text": "wake up" }], "answer": 1 },
+          { "audio": "I do my homework.", "options": [{ "emoji": "📺", "text": "watch TV" }, { "emoji": "⚽", "text": "play soccer" }, { "emoji": "📝", "text": "do homework" }], "answer": 2 },
+          { "audio": "I go to school by bus.", "options": [{ "emoji": "🚌", "text": "go to school" }, { "emoji": "🧹", "text": "help at home" }, { "emoji": "🍽️", "text": "have dinner" }], "answer": 0 }
+        ]
+      },
+      {
+        "id": "l2", "type": "listen-choice", "title": "What time is it?",
+        "instructions": "Escucha la hora y elige el reloj correcto.",
+        "items": [
+          { "audio": "It's seven o'clock.", "options": ["7:00", "11:00", "7:30"], "answer": 0 },
+          { "audio": "It's half past six.", "options": ["6:00", "6:30", "12:30"], "answer": 1, "explain": "*half past six* = 6:30." },
+          { "audio": "It's nine fifteen.", "options": ["9:50", "5:15", "9:15"], "answer": 2 },
+          { "audio": "I go to bed at ten thirty.", "prompt": "What time does he go to bed?", "options": ["10:30", "10:13", "2:30"], "answer": 0, "voice": "male" }
+        ]
+      },
+      {
+        "id": "l3", "type": "listen-tf", "title": "Lucía's day",
+        "instructions": "Escucha el diálogo. Luego di si cada oración es verdadera (True) o falsa (False).",
+        "dialogue": [
+          { "speaker": "Reporter", "text": "Hi, Lucía! What time do you get up on school days?", "voice": "male" },
+          { "speaker": "Lucía", "text": "I get up at five thirty. My school starts at seven.", "voice": "female" },
+          { "speaker": "Reporter", "text": "Wow, that's early! Do you have breakfast?", "voice": "male" },
+          { "speaker": "Lucía", "text": "Yes, I always have gallo pinto and coffee with milk.", "voice": "female" },
+          { "speaker": "Reporter", "text": "And what do you do after school?", "voice": "male" },
+          { "speaker": "Lucía", "text": "I do my homework and I sometimes play volleyball. I never watch TV on school days.", "voice": "female" }
+        ],
+        "statements": [
+          { "text": "Lucía gets up at five thirty.", "answer": true },
+          { "text": "Her school starts at eight.", "answer": false, "explain": "*My school starts at seven.*" },
+          { "text": "She always has breakfast.", "answer": true },
+          { "text": "She watches TV every day.", "answer": false, "explain": "*I never watch TV on school days.*" }
+        ]
+      },
+      {
+        "id": "l4", "type": "dictation", "title": "Short dictation",
+        "instructions": "Escucha y escribe la oración.",
+        "items": [
+          { "answer": "I get up at six." },
+          { "answer": "She has breakfast at home." },
+          { "answer": "We never go to bed late." },
+          { "answer": "What time is it?" }
+        ]
+      }
+    ],
+
+    "reading": [
+      {
+        "id": "r1", "type": "reading", "title": "José's routine",
+        "instructions": "Lee el texto y responde las preguntas.",
+        "textTitle": "A day in my life", "icon": { "emoji": "🌞" },
+        "text": "My name is José and I live in a small town near Rivas. On school days I wake up at five o'clock. I take a shower, get dressed and have breakfast with my grandmother. I walk to school with my cousin. Classes start at seven and finish at twelve. In the afternoon I help my father on the farm. After that, I do my homework. We have dinner at six thirty. I usually go to bed at nine. On Sundays I play baseball with my friends.",
+        "questions": [
+          { "q": "What time does José wake up?", "options": ["At 5:00", "At 7:00", "At 6:30"], "answer": 0 },
+          { "q": "Who does he have breakfast with?", "options": ["His cousin", "His grandmother", "His father"], "answer": 1 },
+          { "q": "How does he go to school?", "options": ["By bus", "By bike", "He walks"], "answer": 2 },
+          { "q": "What does he do in the afternoon?", "options": ["He plays baseball", "He helps his father", "He watches TV"], "answer": 1 },
+          { "q": "When does he play baseball?", "options": ["On Sundays", "Every day", "After school"], "answer": 0 }
+        ]
+      },
+      {
+        "id": "r2", "type": "match", "title": "Verbs and actions",
+        "instructions": "Relaciona cada verbo con su complemento.",
+        "pairs": [
+          ["brush", "my teeth"],
+          ["take", "a shower"],
+          ["do", "my homework"],
+          ["watch", "TV"],
+          ["go", "to bed"]
+        ]
+      },
+      {
+        "id": "r3", "type": "reading", "title": "Weekly planner",
+        "instructions": "Lee la agenda de Andrea y responde.",
+        "textTitle": "Andrea's week", "icon": { "emoji": "🗓️" },
+        "text": "**Monday** – English class at 2:00\n**Tuesday** – Dance practice at 3:30\n**Wednesday** – Visit grandma\n**Thursday** – Dance practice at 3:30\n**Friday** – Movie night 🎬\n**Saturday** – Help mom at the market\n**Sunday** – Church and family lunch",
+        "questions": [
+          { "q": "When does Andrea have English class?", "options": ["On Monday", "On Friday", "On Sunday"], "answer": 0 },
+          { "q": "How many days a week does she go to dance practice?", "options": ["One", "Two", "Three"], "answer": 1 },
+          { "q": "What does she do on Saturday?", "options": ["She visits grandma", "She helps her mom", "She watches a movie"], "answer": 1 }
+        ]
+      },
+      {
+        "id": "r4", "type": "match", "title": "Times",
+        "instructions": "Relaciona cada hora con su forma en inglés.",
+        "pairs": [
+          ["6:00", "six o'clock"],
+          ["8:30", "half past eight"],
+          ["3:15", "three fifteen"],
+          ["12:00", "twelve o'clock"],
+          ["4:45", "four forty-five"]
+        ]
+      }
+    ],
+
+    "writing": [
+      {
+        "id": "w1", "type": "gap-fill", "title": "Add -s or not?",
+        "instructions": "Elige la forma correcta del verbo.",
+        "items": [
+          { "text": "I ___ up at six.", "answers": ["get"], "wordBank": ["get", "gets"] },
+          { "text": "My mother ___ coffee every morning.", "answers": ["drinks"], "wordBank": ["drink", "drinks"] },
+          { "text": "We ___ lunch at school.", "answers": ["have"], "wordBank": ["have", "has"] },
+          { "text": "Carlos ___ TV in the evening.", "answers": ["watches"], "wordBank": ["watch", "watches"] },
+          { "text": "My sister ___ to school by bus.", "answers": ["goes"], "wordBank": ["go", "goes"] },
+          { "text": "They ___ soccer and he ___ volleyball.", "answers": ["play", "plays"], "wordBank": ["play", "plays"] }
+        ]
+      },
+      {
+        "id": "w2", "type": "gap-fill", "title": "Do, does, don't, doesn't",
+        "instructions": "Elige la palabra correcta.",
+        "wordBank": ["do", "does", "don't", "doesn't"],
+        "items": [
+          { "text": "___ you get up early?", "answers": ["do"] },
+          { "text": "___ your brother play soccer?", "answers": ["does"] },
+          { "text": "I ___ drink coffee.", "answers": ["don't"] },
+          { "text": "She ___ watch TV on school days.", "answers": ["doesn't"] },
+          { "text": "Does he walk to school? Yes, he ___.", "answers": ["does"] }
+        ]
+      },
+      {
+        "id": "w3", "type": "word-order", "title": "Make sentences",
+        "instructions": "Toca las palabras en el orden correcto.",
+        "items": [
+          { "answer": "I always have breakfast at home." },
+          { "answer": "She usually gets up at six." },
+          { "answer": "What time do you go to bed?" },
+          { "answer": "My father doesn't watch TV." },
+          { "answer": "We sometimes play soccer after school." }
+        ]
+      },
+      {
+        "id": "w4", "type": "form-fill", "title": "Daily schedule",
+        "instructions": "Lee el texto y completa el horario de Mario con números (por ejemplo **6:30**).",
+        "text": "Hi! I'm Mario. I wake up at 5:30. I have breakfast at 6:00. I go to school at 6:30. I have lunch at 12:30. I do my homework at 3:00 and I go to bed at 9:00.",
+        "formTitle": "⏰ Mario's schedule",
+        "fields": [
+          { "label": "Wake up", "labelEs": "despertarse", "answer": ["5:30", "five thirty", "half past five"], "placeholder": "0:00" },
+          { "label": "Have breakfast", "labelEs": "desayunar", "answer": ["6:00", "six", "6", "six o'clock"], "placeholder": "0:00" },
+          { "label": "Go to school", "labelEs": "ir a la escuela", "answer": ["6:30", "six thirty", "half past six"], "placeholder": "0:00" },
+          { "label": "Have lunch", "labelEs": "almorzar", "answer": ["12:30", "twelve thirty", "half past twelve"], "placeholder": "0:00" },
+          { "label": "Go to bed", "labelEs": "acostarse", "answer": ["9:00", "nine", "9", "nine o'clock"], "placeholder": "0:00" }
+        ]
+      },
+      {
+        "id": "w5", "type": "guided-writing", "title": "My school day",
+        "instructions": "Escribe de 3 a 5 oraciones sobre tu rutina. Usa la plantilla.",
+        "template": ["I wake up at ___.", "I usually have ___ for breakfast.", "I go to school by ___ / I walk to school.", "After school, I ___.", "I go to bed at ___."],
+        "minSentences": 3,
+        "placeholder": "I wake up at six o'clock…",
+        "checks": [
+          { "pattern": "\\bat (\\d|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve)", "label": "Dijiste una hora con *at*.", "hint": "Di a qué hora: *I wake up at six.*" },
+          { "pattern": "\\b(wake|get up|shower|breakfast|lunch|dinner|homework|bed|school|play|watch|help|brush)", "label": "Usaste actividades de la rutina.", "hint": "Usa actividades: *I have breakfast, I do my homework…*" },
+          { "pattern": "\\b(always|usually|sometimes|never|often)\\b", "label": "Usaste un adverbio de frecuencia.", "hint": "Usa *always, usually, sometimes* o *never*." }
+        ],
+        "model": "I wake up at five thirty. I usually have gallo pinto for breakfast. I walk to school with my sister. After school, I do my homework. I go to bed at nine."
+      }
+    ],
+
+    "speaking": [
+      {
+        "id": "s1", "type": "shadowing", "title": "Repeat the routine",
+        "instructions": "Escucha y repite cada frase en voz alta.",
+        "items": [
+          { "text": "I wake up at six o'clock.", "es": "Me despierto a las seis en punto." },
+          { "text": "She brushes her teeth.", "es": "Ella se cepilla los dientes." },
+          { "text": "What time do you go to school?", "es": "¿A qué hora vas a la escuela?" },
+          { "text": "I usually do my homework in the afternoon.", "es": "Usualmente hago la tarea en la tarde." },
+          { "text": "He never goes to bed late.", "es": "Él nunca se acuesta tarde." }
+        ]
+      },
+      {
+        "id": "s2", "type": "speak-answer", "title": "Talk about your day",
+        "instructions": "Escucha la pregunta y responde en voz alta.",
+        "items": [
+          { "question": "What time do you wake up?", "accept": ["\\b(one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve)\\b", "wake up"], "example": "I wake up at six o'clock." },
+          { "question": "What do you have for breakfast?", "accept": ["breakfast", "\\b(gallo pinto|eggs?|bread|coffee|milk|juice|rice|beans|cereal|fruit|tortilla|cheese)\\b"], "example": "I have gallo pinto and eggs." },
+          { "question": "How do you go to school?", "accept": ["\\b(walk|bus|bike|car|taxi|motorcycle|foot)\\b"], "example": "I walk to school." },
+          { "question": "What do you do after school?", "accept": ["homework", "play", "watch", "help", "\\bi \\w+"], "example": "I do my homework and I play soccer." }
+        ]
+      },
+      {
+        "id": "s3", "type": "roleplay", "title": "School survey",
+        "instructions": "Mr. Green hace una encuesta sobre rutinas. Responde sus preguntas.",
+        "scene": "Un profesor visitante hace una encuesta en tu clase.",
+        "appName": "Mr. Green", "appVoice": "male",
+        "turns": [
+          { "role": "app", "text": "Good morning! Can I ask you some questions about your routine?" },
+          { "role": "student", "expected": "Yes, of course.", "accept": ["\\b(yes|sure|ok|okay|of course)\\b"] },
+          { "role": "app", "text": "Great. What time do you get up?" },
+          { "role": "student", "expected": "I get up at ___.", "accept": ["\\b(one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve)\\b", "get up", "at"], "example": "I get up at five thirty." },
+          { "role": "app", "text": "Do you have breakfast every day?" },
+          { "role": "student", "expected": "Yes, I do. / No, I don't.", "accept": ["\\b(yes|no)\\b", "always", "usually", "sometimes", "never"], "example": "Yes, I always have breakfast." },
+          { "role": "app", "text": "What do you do in the evening?" },
+          { "role": "student", "expected": "I ___ in the evening.", "accept": ["\\b(homework|watch|play|help|read|dinner|study)\\b", "\\bi \\w+"], "example": "I do my homework and watch TV." },
+          { "role": "app", "text": "Thank you very much! Have a nice day." },
+          { "role": "student", "expected": "You're welcome. You too!", "accept": ["welcome", "you too", "thank", "bye"] }
+        ]
+      }
+    ]
+  },
+
+  "quiz": [
+    { "skill": "listening", "type": "listen-choice", "instructions": "Escucha y elige.", "items": [
+      { "audio": "I have dinner with my family.", "options": [{ "emoji": "🍽️", "text": "have dinner" }, { "emoji": "🥪", "text": "have lunch" }, { "emoji": "🍳", "text": "have breakfast" }], "answer": 0 } ] },
+    { "skill": "listening", "type": "listen-choice", "instructions": "Escucha y elige la hora.", "items": [
+      { "audio": "It's half past four.", "options": ["4:30", "4:00", "14:30"], "answer": 0 } ] },
+    { "skill": "listening", "type": "dictation", "instructions": "Escucha y escribe.", "items": [
+      { "answer": "He goes to school by bus." } ] },
+    { "skill": "reading", "type": "reading", "instructions": "Lee y responde.",
+      "text": "Paula gets up at six. She takes a shower and has breakfast. She never has coffee. She always drinks orange juice.",
+      "questions": [ { "q": "What does Paula drink in the morning?", "options": ["Coffee", "Orange juice", "Milk"], "answer": 1 } ] },
+    { "skill": "reading", "type": "reading", "instructions": "Lee y responde.",
+      "text": "My brother Luis works in a bakery. He starts work at four in the morning and finishes at noon. In the afternoon he sleeps.",
+      "questions": [ { "q": "What does Luis do in the afternoon?", "options": ["He works", "He sleeps", "He studies"], "answer": 1 } ] },
+    { "skill": "writing", "type": "gap-fill", "instructions": "Elige la forma correcta.", "items": [
+      { "text": "My mother ___ dinner at seven.", "answers": ["makes"], "wordBank": ["make", "makes"] } ] },
+    { "skill": "writing", "type": "gap-fill", "instructions": "Elige la palabra correcta.", "items": [
+      { "text": "___ your sister go to school by bus?", "answers": ["does"], "wordBank": ["do", "does"] } ] },
+    { "skill": "writing", "type": "word-order", "instructions": "Ordena las palabras.", "items": [
+      { "answer": "I never watch TV in the morning." } ] },
+    { "skill": "speaking", "type": "shadowing", "instructions": "Escucha y repite.", "items": [
+      { "text": "I usually go to bed at nine thirty." } ] },
+    { "skill": "speaking", "type": "speak-answer", "instructions": "Responde en voz alta.", "items": [
+      { "question": "What time do you go to bed?", "accept": ["\\b(one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve)\\b", "bed"], "example": "I go to bed at nine o'clock." } ] }
+  ]
+}

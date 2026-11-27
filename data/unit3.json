@@ -1,0 +1,331 @@
+{
+  "vocabulary": [
+    { "en": "school", "es": "escuela / colegio", "icon": { "emoji": "🏫" }, "example": "My school is big." },
+    { "en": "classroom", "es": "aula / salón de clases", "icon": { "emoji": "🚪" }, "example": "Our classroom is on the second floor." },
+    { "en": "book", "es": "libro", "icon": { "emoji": "📕" }, "example": "This is my English book." },
+    { "en": "notebook", "es": "cuaderno", "icon": { "emoji": "📓" }, "example": "I have a blue notebook." },
+    { "en": "pencil", "es": "lápiz", "icon": { "emoji": "✏️" }, "example": "Can I borrow a pencil?" },
+    { "en": "pen", "es": "lapicero", "icon": { "emoji": "🖊️" }, "example": "Write your name with a pen." },
+    { "en": "eraser", "es": "borrador", "icon": { "emoji": "🧽" }, "example": "My eraser is in my backpack." },
+    { "en": "ruler", "es": "regla", "icon": { "emoji": "📏" }, "example": "I need a ruler for math." },
+    { "en": "scissors", "es": "tijeras", "icon": { "emoji": "✂️" }, "example": "The scissors are on the desk." },
+    { "en": "backpack", "es": "mochila", "icon": { "emoji": "🎒" }, "example": "My backpack is heavy." },
+    { "en": "desk", "es": "pupitre / escritorio", "icon": { "emoji": "🪑" }, "example": "There is a book on my desk." },
+    { "en": "board", "es": "pizarra", "icon": { "emoji": "🟩" }, "example": "The teacher writes on the board." },
+    { "en": "library", "es": "biblioteca", "icon": { "emoji": "📚" }, "example": "We read books in the library." },
+    { "en": "cafeteria", "es": "cafetería / comedor", "icon": { "emoji": "🍽️" }, "example": "We eat lunch in the cafeteria." },
+    { "en": "playground", "es": "patio de recreo / cancha", "icon": { "emoji": "⚽" }, "example": "We play soccer on the playground." },
+    { "en": "bathroom", "es": "baño", "icon": { "emoji": "🚻" }, "example": "May I go to the bathroom?" },
+    { "en": "math", "es": "matemáticas", "icon": { "emoji": "➗" }, "example": "Math is my favorite subject." },
+    { "en": "science", "es": "ciencias naturales", "icon": { "emoji": "🔬" }, "example": "We have science on Monday." },
+    { "en": "Spanish", "es": "lengua y literatura (español)", "icon": { "emoji": "📝" }, "example": "I like Spanish class." },
+    { "en": "English", "es": "inglés", "icon": { "emoji": "🇬🇧" }, "example": "English is fun!" },
+    { "en": "history", "es": "historia", "icon": { "emoji": "🏛️" }, "example": "We learn about Nicaragua in history." },
+    { "en": "P.E.", "es": "educación física", "icon": { "emoji": "🏃" }, "example": "We have P.E. on Friday." },
+    { "en": "art", "es": "arte / dibujo", "icon": { "emoji": "🎨" }, "example": "I paint in art class." },
+    { "en": "favorite", "es": "favorito / favorita", "icon": { "emoji": "⭐" }, "example": "What's your favorite subject?" }
+  ],
+
+  "grammar": [
+    {
+      "title": "A / an and plurals",
+      "explanation": "Usamos **a** antes de sonido de consonante y **an** antes de sonido de vocal (a, e, i, o, u).\nPara el plural casi siempre agregamos **-s**. Con palabras que terminan en *-s, -sh, -ch, -x* agregamos **-es**.",
+      "table": {
+        "headers": ["Singular", "Plural", "Regla"],
+        "rows": [
+          ["a book", "two books", "+ s"],
+          ["an eraser", "three erasers", "+ s"],
+          ["a box", "two boxes", "+ es"],
+          ["a dictionary", "two dictionaries", "y → ies"]
+        ]
+      },
+      "examples": [
+        { "en": "I have a pen and an eraser.", "es": "Tengo un lapicero y un borrador." },
+        { "en": "There are five notebooks in my backpack.", "es": "Hay cinco cuadernos en mi mochila." }
+      ],
+      "tip": "*Scissors* siempre es plural: *The scissors **are** on the desk.*"
+    },
+    {
+      "title": "This / that / these / those",
+      "explanation": "Sirven para señalar cosas.\n**This / these** = cerca de mí. **That / those** = lejos de mí.",
+      "table": {
+        "headers": ["", "Cerca", "Lejos"],
+        "rows": [
+          ["Singular", "**this** book (este)", "**that** book (ese / aquel)"],
+          ["Plural", "**these** books (estos)", "**those** books (esos / aquellos)"]
+        ]
+      },
+      "examples": [
+        { "en": "This is my pencil.", "es": "Este es mi lápiz." },
+        { "en": "Those are my classmates.", "es": "Esos son mis compañeros." },
+        { "en": "What's that? It's a ruler.", "es": "¿Qué es eso? Es una regla." }
+      ],
+      "tip": "Con *this/that* usa **is**; con *these/those* usa **are**."
+    },
+    {
+      "title": "There is / there are (hay)",
+      "explanation": "**There is** + singular, **there are** + plural. Los dos significan *hay*.\nPregunta: **Is there** a library? / **Are there** any computers?",
+      "table": {
+        "headers": ["", "Singular", "Plural"],
+        "rows": [
+          ["Afirmativo", "There **is** a board.", "There **are** 30 desks."],
+          ["Negativo", "There **isn't** a pool.", "There **aren't** any computers."],
+          ["Pregunta", "**Is there** a library?", "**Are there** any books?"]
+        ]
+      },
+      "examples": [
+        { "en": "Is there a cafeteria in your school? Yes, there is.", "es": "¿Hay cafetería en tu escuela? Sí, hay." },
+        { "en": "There are twenty-eight students in my class.", "es": "Hay veintiocho estudiantes en mi clase." }
+      ],
+      "tip": "En español decimos *hay* para todo; en inglés depende si es uno (**is**) o varios (**are**)."
+    },
+    {
+      "title": "Prepositions of place: in, on, under, next to",
+      "explanation": "Dicen **dónde** está algo.",
+      "table": {
+        "headers": ["Preposición", "Significado", "Ejemplo"],
+        "rows": [
+          ["in", "dentro de", "The pen is **in** the backpack."],
+          ["on", "sobre / encima de", "The book is **on** the desk."],
+          ["under", "debajo de", "The backpack is **under** the chair."],
+          ["next to", "al lado de", "Ana sits **next to** me."]
+        ]
+      },
+      "examples": [
+        { "en": "Where is my eraser? It's under your notebook.", "es": "¿Dónde está mi borrador? Está debajo de tu cuaderno." }
+      ]
+    }
+  ],
+
+  "skills": {
+    "listening": [
+      {
+        "id": "l1", "type": "listen-choice", "title": "School supplies",
+        "instructions": "Escucha y elige el dibujo correcto.",
+        "items": [
+          { "audio": "a pencil", "options": [{ "emoji": "🖊️", "text": "pen" }, { "emoji": "✏️", "text": "pencil" }, { "emoji": "📏", "text": "ruler" }], "answer": 1 },
+          { "audio": "a backpack", "options": [{ "emoji": "🎒", "text": "backpack" }, { "emoji": "📓", "text": "notebook" }, { "emoji": "🪑", "text": "desk" }], "answer": 0 },
+          { "audio": "scissors", "options": [{ "emoji": "🧽", "text": "eraser" }, { "emoji": "📕", "text": "book" }, { "emoji": "✂️", "text": "scissors" }], "answer": 2 },
+          { "audio": "a ruler", "options": [{ "emoji": "📏", "text": "ruler" }, { "emoji": "✏️", "text": "pencil" }, { "emoji": "🟩", "text": "board" }], "answer": 0 }
+        ]
+      },
+      {
+        "id": "l2", "type": "listen-choice", "title": "School subjects and places",
+        "instructions": "Escucha y elige la respuesta correcta.",
+        "items": [
+          { "audio": "My favorite subject is science.", "prompt": "What is her favorite subject?", "options": [{ "emoji": "➗", "text": "math" }, { "emoji": "🔬", "text": "science" }, { "emoji": "🎨", "text": "art" }], "answer": 1, "voice": "female" },
+          { "audio": "We play soccer on the playground.", "prompt": "Where do they play soccer?", "options": [{ "emoji": "📚", "text": "library" }, { "emoji": "🍽️", "text": "cafeteria" }, { "emoji": "⚽", "text": "playground" }], "answer": 2 },
+          { "audio": "We have P.E. on Friday.", "prompt": "When do they have P.E.?", "options": ["Monday", "Thursday", "Friday"], "answer": 2 },
+          { "audio": "The book is under the desk.", "prompt": "Where is the book?", "options": ["on the desk", "under the desk", "in the desk"], "answer": 1, "voice": "male" }
+        ]
+      },
+      {
+        "id": "l3", "type": "listen-tf", "title": "A new school",
+        "instructions": "Escucha el diálogo. Luego di si cada oración es verdadera (True) o falsa (False).",
+        "dialogue": [
+          { "speaker": "Mom", "text": "So, how is your new school, Daniel?", "voice": "female" },
+          { "speaker": "Daniel", "text": "It's great, Mom! It's big. There are fifteen classrooms.", "voice": "male" },
+          { "speaker": "Mom", "text": "Is there a library?", "voice": "female" },
+          { "speaker": "Daniel", "text": "Yes, there is. And there's a big playground too.", "voice": "male" },
+          { "speaker": "Mom", "text": "What's your favorite subject?", "voice": "female" },
+          { "speaker": "Daniel", "text": "Math! But I don't like history. It's boring.", "voice": "male" }
+        ],
+        "statements": [
+          { "text": "Daniel's new school is small.", "answer": false, "explain": "*It's big.*" },
+          { "text": "There are fifteen classrooms.", "answer": true },
+          { "text": "There isn't a library.", "answer": false, "explain": "*Is there a library? Yes, there is.*" },
+          { "text": "Daniel's favorite subject is math.", "answer": true }
+        ]
+      },
+      {
+        "id": "l4", "type": "dictation", "title": "Short dictation",
+        "instructions": "Escucha y escribe la oración.",
+        "items": [
+          { "answer": "This is my notebook." },
+          { "answer": "There are thirty desks." },
+          { "answer": "My favorite subject is English." },
+          { "answer": "The pen is on the desk." }
+        ]
+      }
+    ],
+
+    "reading": [
+      {
+        "id": "r1", "type": "reading", "title": "My school",
+        "instructions": "Lee el texto y responde las preguntas.",
+        "textTitle": "Rubén Darío School", "icon": { "emoji": "🏫" },
+        "text": "Hi! My name is Valeria and I'm in seventh grade at Rubén Darío School in León. My school is not very big, but it is beautiful. There are ten classrooms, a library and a small cafeteria. There isn't a swimming pool. My classroom has thirty desks and a big green board. My favorite subject is art because I love to draw. My best friend, Camila, sits next to me. Her favorite subject is math.",
+        "questions": [
+          { "q": "What grade is Valeria in?", "options": ["Sixth", "Seventh", "Eighth"], "answer": 1 },
+          { "q": "How many classrooms are there?", "options": ["Ten", "Thirty", "Seven"], "answer": 0 },
+          { "q": "Is there a swimming pool?", "options": ["Yes, there is.", "No, there isn't."], "answer": 1 },
+          { "q": "Why does Valeria like art?", "options": ["Because it's easy", "Because she loves to draw", "Because Camila likes it"], "answer": 1 },
+          { "q": "Where does Camila sit?", "options": ["Next to Valeria", "In the library", "Under the board"], "answer": 0 }
+        ]
+      },
+      {
+        "id": "r2", "type": "match", "title": "Places at school",
+        "instructions": "Relaciona cada lugar con lo que hacemos ahí.",
+        "pairs": [
+          ["library", "We read books."],
+          ["cafeteria", "We eat lunch."],
+          ["playground", "We play soccer."],
+          ["classroom", "We have class."],
+          ["bathroom", "We wash our hands."]
+        ]
+      },
+      {
+        "id": "r3", "type": "reading", "title": "Class schedule",
+        "instructions": "Lee el horario y responde.",
+        "textTitle": "7th grade – Monday", "icon": { "emoji": "🗓️" },
+        "text": "**7:00** – Math\n**7:45** – Spanish\n**8:30** – English\n**9:15** – Break ☕\n**9:45** – Science\n**10:30** – P.E.\n**11:15** – History",
+        "questions": [
+          { "q": "What is the first class?", "options": ["Spanish", "Math", "English"], "answer": 1 },
+          { "q": "What time is English?", "options": ["7:45", "8:30", "9:45"], "answer": 1 },
+          { "q": "What class is after the break?", "options": ["Science", "P.E.", "History"], "answer": 0 },
+          { "q": "What is the last class?", "options": ["P.E.", "History", "Math"], "answer": 1 }
+        ]
+      },
+      {
+        "id": "r4", "type": "match", "title": "Subjects",
+        "instructions": "Relaciona cada materia con lo que aprendes.",
+        "pairs": [
+          ["math", "numbers"],
+          ["science", "plants and animals"],
+          ["history", "the past"],
+          ["art", "drawing and painting"],
+          ["P.E.", "sports"]
+        ]
+      }
+    ],
+
+    "writing": [
+      {
+        "id": "w1", "type": "gap-fill", "title": "A or an?",
+        "instructions": "Elige **a** o **an**.",
+        "wordBank": ["a", "an"],
+        "items": [
+          { "text": "I have ___ pencil.", "answers": ["a"] },
+          { "text": "Do you have ___ eraser?", "answers": ["an"] },
+          { "text": "This is ___ English book.", "answers": ["an"] },
+          { "text": "There is ___ board in the classroom.", "answers": ["a"] },
+          { "text": "She has ___ orange backpack and ___ blue pen.", "answers": ["an", "a"] }
+        ]
+      },
+      {
+        "id": "w2", "type": "gap-fill", "title": "There is / there are",
+        "instructions": "Elige **is** o **are**.",
+        "wordBank": ["is", "are"],
+        "items": [
+          { "text": "There ___ a library in my school.", "answers": ["is"] },
+          { "text": "There ___ twenty-five students in my class.", "answers": ["are"] },
+          { "text": "There ___ a big board.", "answers": ["is"] },
+          { "text": "There ___ three books on the desk.", "answers": ["are"] },
+          { "text": "___ there a cafeteria? Yes, there ___.", "answers": ["Is", "is"] }
+        ]
+      },
+      {
+        "id": "w3", "type": "gap-fill", "title": "This, that, these, those",
+        "instructions": "Elige la palabra correcta. **Aquí** 👇 = cerca, **allá** 👉 = lejos.",
+        "wordBank": ["this", "that", "these", "those"],
+        "items": [
+          { "text": "___ is my pencil. (aquí 👇)", "answers": ["this"] },
+          { "text": "___ are my books. (aquí 👇)", "answers": ["these"] },
+          { "text": "___ is the library. (allá 👉)", "answers": ["that"] },
+          { "text": "___ are my classmates. (allá 👉)", "answers": ["those"] }
+        ]
+      },
+      {
+        "id": "w4", "type": "word-order", "title": "Make sentences",
+        "instructions": "Toca las palabras en el orden correcto.",
+        "items": [
+          { "answer": "There is a library in my school." },
+          { "answer": "My favorite subject is science." },
+          { "answer": "The ruler is in my backpack." },
+          { "answer": "These are my new pencils." },
+          { "answer": "Is there a cafeteria?" }
+        ]
+      },
+      {
+        "id": "w5", "type": "guided-writing", "title": "Describe your school",
+        "instructions": "Escribe de 3 a 5 oraciones sobre tu escuela. Usa la plantilla.",
+        "template": ["My school is ___ (big / small / beautiful).", "There is a ___. There are ___ classrooms.", "My favorite subject is ___.", "My best friend at school is ___."],
+        "minSentences": 3,
+        "placeholder": "My school is big…",
+        "checks": [
+          { "pattern": "\\bthere (is|are)\\b|there's", "label": "Usaste there is / there are.", "hint": "Usa *There is…* o *There are…*: *There are ten classrooms.*" },
+          { "pattern": "\\b(math|science|spanish|english|history|p ?e|art|music|geography)\\b", "label": "Nombraste una materia.", "hint": "Escribe tu materia favorita: *My favorite subject is math.*" },
+          { "pattern": "\\b(library|cafeteria|playground|classroom|bathroom|board|desks?|lab|office|garden)s?\\b", "label": "Describiste un lugar o cosa de la escuela.", "hint": "Menciona un lugar: *There is a library.*" }
+        ],
+        "model": "My school is small but beautiful. There are eight classrooms and there is a library. My favorite subject is science. My best friend at school is Andrea."
+      }
+    ],
+
+    "speaking": [
+      {
+        "id": "s1", "type": "shadowing", "title": "Classroom phrases",
+        "instructions": "Escucha y repite estas frases útiles en clase.",
+        "items": [
+          { "text": "May I go to the bathroom?", "es": "¿Puedo ir al baño?" },
+          { "text": "Can I borrow a pencil, please?", "es": "¿Me prestas un lápiz, por favor?" },
+          { "text": "How do you say cuaderno in English?", "es": "¿Cómo se dice cuaderno en inglés?" },
+          { "text": "Can you repeat, please?", "es": "¿Puede repetir, por favor?" },
+          { "text": "I don't understand.", "es": "No entiendo." }
+        ]
+      },
+      {
+        "id": "s2", "type": "speak-answer", "title": "Talk about your school",
+        "instructions": "Escucha la pregunta y responde en voz alta.",
+        "items": [
+          { "question": "What's your favorite subject?", "accept": ["\\b(math|science|spanish|english|history|p e|pe|art|music)\\b", "favorite"], "example": "My favorite subject is English." },
+          { "question": "Is there a library in your school?", "accept": ["\\b(yes|no)\\b", "there is", "there isn't", "there is not"], "example": "Yes, there is." },
+          { "question": "How many students are there in your class?", "accept": ["\\b(ten|twenty|thirty|forty|fifty)", "\\b(eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen)\\b", "students"], "example": "There are thirty students in my class." },
+          { "question": "What's in your backpack?", "accept": ["\\b(book|notebook|pencil|pen|eraser|ruler|scissors|lunch)s?\\b"], "example": "There are two books and a pencil." }
+        ]
+      },
+      {
+        "id": "s3", "type": "roleplay", "title": "Borrowing school supplies",
+        "instructions": "Estás en clase y no tienes lápiz. Habla con tu compañero Sam. Tú empiezas después de él.",
+        "scene": "Es la clase de matemáticas y olvidaste tu lápiz en casa.",
+        "appName": "Sam", "appVoice": "male",
+        "turns": [
+          { "role": "app", "text": "Hey! Are you okay?" },
+          { "role": "student", "expected": "Can I borrow a pencil, please?", "accept": ["borrow", "pencil", "can i"] },
+          { "role": "app", "text": "Sure! Here you are. Do you need an eraser too?" },
+          { "role": "student", "expected": "Yes, please. / No, thank you.", "accept": ["\\b(yes|no)\\b", "please", "thank"], "example": "Yes, please." },
+          { "role": "app", "text": "No problem. Do you like math?" },
+          { "role": "student", "expected": "Yes, I do. / No, I don't.", "accept": ["\\b(yes|no)\\b", "like", "do"], "example": "Yes, I do. It's my favorite subject." },
+          { "role": "app", "text": "Cool! What's your favorite subject?" },
+          { "role": "student", "expected": "My favorite subject is ___.", "accept": ["\\b(math|science|spanish|english|history|p e|pe|art|music)\\b", "favorite"], "example": "My favorite subject is art." },
+          { "role": "app", "text": "Nice! Oh, the teacher is here." },
+          { "role": "student", "expected": "Thank you for the pencil!", "accept": ["thank", "thanks"] }
+        ]
+      }
+    ]
+  },
+
+  "quiz": [
+    { "skill": "listening", "type": "listen-choice", "instructions": "Escucha y elige.", "items": [
+      { "audio": "a notebook", "options": [{ "emoji": "📓", "text": "notebook" }, { "emoji": "📕", "text": "book" }, { "emoji": "🎒", "text": "backpack" }], "answer": 0 } ] },
+    { "skill": "listening", "type": "listen-choice", "instructions": "Escucha y elige.", "items": [
+      { "audio": "The scissors are next to the ruler.", "prompt": "Where are the scissors?", "options": ["under the ruler", "next to the ruler", "in the backpack"], "answer": 1 } ] },
+    { "skill": "listening", "type": "dictation", "instructions": "Escucha y escribe.", "items": [
+      { "answer": "Is there a library?" } ] },
+    { "skill": "reading", "type": "reading", "instructions": "Lee y responde.",
+      "text": "In my classroom there are twenty-six desks, a board and two windows. There isn't a computer.",
+      "questions": [ { "q": "Is there a computer in the classroom?", "options": ["Yes, there is.", "No, there isn't."], "answer": 1 } ] },
+    { "skill": "reading", "type": "reading", "instructions": "Lee y responde.",
+      "text": "I'm Óscar. I love sports, so my favorite class is P.E. I don't like math because it's difficult for me.",
+      "questions": [ { "q": "What is Óscar's favorite class?", "options": ["Math", "P.E.", "Art"], "answer": 1 } ] },
+    { "skill": "writing", "type": "gap-fill", "instructions": "Elige a o an.", "items": [
+      { "text": "I need ___ eraser.", "answers": ["an"], "wordBank": ["a", "an"] } ] },
+    { "skill": "writing", "type": "gap-fill", "instructions": "Elige is o are.", "items": [
+      { "text": "There ___ four pencils in my backpack.", "answers": ["are"], "wordBank": ["is", "are"] } ] },
+    { "skill": "writing", "type": "word-order", "instructions": "Ordena las palabras.", "items": [
+      { "answer": "Those are my classmates." } ] },
+    { "skill": "speaking", "type": "shadowing", "instructions": "Escucha y repite.", "items": [
+      { "text": "May I go to the bathroom, please?" } ] },
+    { "skill": "speaking", "type": "speak-answer", "instructions": "Responde en voz alta.", "items": [
+      { "question": "What's your favorite subject?", "accept": ["\\b(math|science|spanish|english|history|p e|pe|art|music)\\b", "favorite"], "example": "My favorite subject is math." } ] }
+  ]
+}

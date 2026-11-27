@@ -10,7 +10,7 @@ export default {
     return new Promise(resolve => {
       el.append(
         listenBtn(() => speak(item.audio, { voice: item.voice }), { auto: true }),
-        item.prompt ? h('p', { class: 'prompt' }, item.prompt) : null,
+        item.prompt ? h('p', { class: 'prompt' }, item.prompt) : '', // '' y no null: el.append() nativo escribiría "null"
         choiceList(item.options, item.answer, { explain: item.explain, onDone: resolve })
       );
     });

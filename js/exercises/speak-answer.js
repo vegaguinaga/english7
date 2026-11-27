@@ -12,7 +12,7 @@ export default {
       h('div', { class: 'card say-card' }, h('p', { class: 'say-text', lang: 'en' }, item.question)),
       listenBtn(() => speak(item.question, { voice: item.voice }), { auto: true }),
       item.example ? h('details', { class: 'model' }, h('summary', {}, '💡 Ver un ejemplo de respuesta'),
-        h('p', {}, item.example, ' ', sayBtn(item.example))) : null
+        h('p', {}, item.example, ' ', sayBtn(item.example))) : ''
     );
     return practiceLoop(el, { accept: item.accept, expected: item.accept ? null : item.example, example: item.example, model: item.example });
   }

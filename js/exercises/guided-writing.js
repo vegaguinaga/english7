@@ -63,7 +63,7 @@ export default {
               r.tips.length ? h('ul', { class: 'tips' }, r.tips.map(t => h('li', { html: '💡 ' + md(t) }))) : null
             ]
           }),
-          ex.model ? h('details', { class: 'model' }, h('summary', {}, '👀 Ver un ejemplo'), h('p', {}, ex.model, ' ', sayBtn(ex.model))) : null,
+          ex.model ? h('details', { class: 'model' }, h('summary', {}, '👀 Ver un ejemplo'), h('p', {}, ex.model, ' ', sayBtn(ex.model))) : '',
           h('div', { class: 'row' },
             h('button', { class: 'btn', type: 'button', onclick: () => ta.focus() }, '✏️ Corregir y revisar otra vez'),
             h('button', { class: 'btn primary', type: 'button', onclick: () => resolve(best) }, 'Continuar →'))

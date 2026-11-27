@@ -12,7 +12,7 @@ export default {
       const turnBox = h('div', { class: 'turn-box' });
       const startBtn = h('button', { class: 'btn primary big', type: 'button' }, '▶ Empezar el diálogo');
       el.append(
-        ex.scene ? h('p', { class: 'scene' }, '🎬 ', ex.scene) : null,
+        ex.scene ? h('p', { class: 'scene' }, '🎬 ', ex.scene) : '',
         chat, turnBox, startBtn);
       const scores = [];
       let i = 0;

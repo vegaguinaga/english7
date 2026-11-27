@@ -1,0 +1,335 @@
+{
+  "vocabulary": [
+    { "en": "park", "es": "parque", "icon": { "emoji": "🌳" }, "example": "We play in the park on Sunday." },
+    { "en": "church", "es": "iglesia", "icon": { "emoji": "⛪" }, "example": "The church is next to the park." },
+    { "en": "market", "es": "mercado", "icon": { "emoji": "🧺" }, "example": "My mom buys fruit at the market." },
+    { "en": "supermarket", "es": "supermercado", "icon": { "emoji": "🛒" }, "example": "The supermarket is open until nine." },
+    { "en": "bank", "es": "banco", "icon": { "emoji": "🏦" }, "example": "The bank is across from the school." },
+    { "en": "pharmacy", "es": "farmacia", "icon": { "emoji": "💊" }, "example": "I need medicine from the pharmacy." },
+    { "en": "hospital", "es": "hospital", "icon": { "svg": "hospital", "alt": "Señal de hospital" }, "example": "The hospital is on Central Avenue." },
+    { "en": "police station", "es": "estación de policía", "icon": { "emoji": "🚓" }, "example": "The police station is near the bank." },
+    { "en": "restaurant", "es": "restaurante", "icon": { "emoji": "🍴" }, "example": "Let's eat at the restaurant." },
+    { "en": "bus stop", "es": "parada de bus", "icon": { "svg": "bus-stop", "alt": "Señal de parada de bus" }, "example": "Wait at the bus stop." },
+    { "en": "street", "es": "calle", "icon": { "emoji": "🛣️" }, "example": "My house is on this street." },
+    { "en": "corner", "es": "esquina", "icon": { "emoji": "📐" }, "example": "The pharmacy is on the corner." },
+    { "en": "turn left", "es": "doblar a la izquierda", "icon": { "emoji": "⬅️" }, "example": "Turn left at the church." },
+    { "en": "turn right", "es": "doblar a la derecha", "icon": { "emoji": "➡️" }, "example": "Turn right on First Street." },
+    { "en": "go straight", "es": "seguir derecho", "icon": { "emoji": "⬆️" }, "example": "Go straight for two blocks." },
+    { "en": "next to", "es": "al lado de", "icon": { "emoji": "↔️" }, "example": "The bank is next to the market." },
+    { "en": "across from", "es": "enfrente de", "icon": { "emoji": "🔄" }, "example": "The park is across from the church." },
+    { "en": "between", "es": "entre", "icon": { "emoji": "⏸️" }, "example": "The café is between the bank and the pharmacy." },
+    { "en": "Stop", "es": "Alto", "icon": { "svg": "stop", "alt": "Señal de alto" }, "example": "Stop at the corner." },
+    { "en": "No smoking", "es": "Prohibido fumar", "icon": { "svg": "no-smoking", "alt": "Señal de prohibido fumar" }, "example": "You mustn't smoke here." },
+    { "en": "Do not enter", "es": "No entrar / Prohibido el paso", "icon": { "svg": "no-entry", "alt": "Señal de no entrar" }, "example": "Do not enter. It's dangerous." },
+    { "en": "Exit", "es": "Salida", "icon": { "svg": "exit", "alt": "Señal de salida" }, "example": "The exit is on the left." },
+    { "en": "Danger", "es": "Peligro", "icon": { "svg": "danger", "alt": "Señal de peligro" }, "example": "Danger! Be careful." },
+    { "en": "Restrooms", "es": "Baños", "icon": { "svg": "restroom", "alt": "Señal de baños" }, "example": "Excuse me, where are the restrooms?" }
+  ],
+
+  "grammar": [
+    {
+      "title": "Prepositions of place",
+      "explanation": "Para decir **dónde está** un lugar usamos estas preposiciones.",
+      "table": {
+        "headers": ["Preposición", "Español", "Ejemplo"],
+        "rows": [
+          ["next to", "al lado de", "The bank is **next to** the park."],
+          ["across from", "enfrente de", "The church is **across from** the school."],
+          ["between", "entre", "The café is **between** the bank and the market."],
+          ["near", "cerca de", "My house is **near** the hospital."],
+          ["on the corner", "en la esquina", "The pharmacy is **on the corner**."],
+          ["on + street", "en (una calle)", "The school is **on** Central Street."]
+        ]
+      },
+      "examples": [
+        { "en": "Where is the bank? It's next to the market.", "es": "¿Dónde está el banco? Está al lado del mercado." }
+      ],
+      "tip": "Con calles se usa **on**: *on Central Street*. Con la dirección completa se usa **at**: *at 25 Central Street*."
+    },
+    {
+      "title": "Imperatives (órdenes e instrucciones)",
+      "explanation": "Para dar instrucciones usamos el verbo **sin sujeto**: *Turn left*. Para prohibir usamos **Don't** + verbo.\nLas señales usan mucho los imperativos.",
+      "table": {
+        "headers": ["Afirmativo", "Negativo", "Español"],
+        "rows": [
+          ["**Stop**.", "**Don't** stop.", "Para. / No pares."],
+          ["**Turn** left.", "**Don't** turn left.", "Dobla a la izquierda."],
+          ["**Be** careful.", "**Don't** run.", "Ten cuidado. / No corras."]
+        ]
+      },
+      "examples": [
+        { "en": "Go straight and turn right at the corner.", "es": "Sigue derecho y dobla a la derecha en la esquina." },
+        { "en": "Don't swim here. It's dangerous.", "es": "No nades aquí. Es peligroso." }
+      ],
+      "tip": "Para ser amable agrega **please**: *Please wait here.*"
+    },
+    {
+      "title": "Must / mustn't (deber / no deber)",
+      "explanation": "**must** = es obligatorio. **mustn't** (must not) = está prohibido.\nEl verbo después de *must* va **sin to** y **sin -s**.",
+      "table": {
+        "headers": ["Señal", "Significado", "Oración"],
+        "rows": [
+          ["STOP", "Alto", "You **must** stop."],
+          ["No smoking", "Prohibido fumar", "You **mustn't** smoke."],
+          ["No swimming", "Prohibido nadar", "You **mustn't** swim here."],
+          ["School zone", "Zona escolar", "You **must** drive slowly."]
+        ]
+      },
+      "examples": [
+        { "en": "You must wear a helmet on a motorcycle.", "es": "Debes usar casco en una moto." },
+        { "en": "You mustn't park here.", "es": "No debes estacionarte aquí." }
+      ],
+      "tip": "Se dice *She must stop* (no *She musts* ni *She must to stop*)."
+    },
+    {
+      "title": "Asking for directions",
+      "explanation": "Frases útiles para preguntar y dar direcciones.",
+      "table": {
+        "headers": ["Frase", "Español"],
+        "rows": [
+          ["Excuse me, where is the bank?", "Disculpe, ¿dónde está el banco?"],
+          ["How do I get to the park?", "¿Cómo llego al parque?"],
+          ["Go straight for two blocks.", "Siga derecho dos cuadras."],
+          ["Turn left / right.", "Doble a la izquierda / derecha."],
+          ["It's on your left / right.", "Está a su izquierda / derecha."]
+        ]
+      },
+      "examples": [
+        { "en": "Excuse me, is there a pharmacy near here? Yes, there's one on the corner.", "es": "Disculpe, ¿hay una farmacia cerca? Sí, hay una en la esquina." }
+      ],
+      "tip": "En Nicaragua decimos *dos cuadras al lago*; en inglés usa **blocks** y **left/right**."
+    }
+  ],
+
+  "skills": {
+    "listening": [
+      {
+        "id": "l1", "type": "listen-choice", "title": "Places in town",
+        "instructions": "Escucha y elige el lugar correcto.",
+        "items": [
+          { "audio": "pharmacy", "options": [{ "emoji": "🏦", "text": "bank" }, { "emoji": "💊", "text": "pharmacy" }, { "emoji": "⛪", "text": "church" }], "answer": 1 },
+          { "audio": "market", "options": [{ "emoji": "🧺", "text": "market" }, { "emoji": "🌳", "text": "park" }, { "emoji": "🍴", "text": "restaurant" }], "answer": 0 },
+          { "audio": "police station", "options": [{ "svg": "hospital", "text": "hospital" }, { "emoji": "🛒", "text": "supermarket" }, { "emoji": "🚓", "text": "police station" }], "answer": 2 },
+          { "audio": "bus stop", "options": [{ "svg": "bus-stop", "text": "bus stop" }, { "svg": "exit", "text": "exit" }, { "emoji": "🛣️", "text": "street" }], "answer": 0 }
+        ]
+      },
+      {
+        "id": "l2", "type": "listen-choice", "title": "Signs",
+        "instructions": "Escucha y elige la señal correcta.",
+        "items": [
+          { "audio": "You mustn't smoke here.", "options": [{ "svg": "no-smoking", "text": "No smoking" }, { "svg": "no-parking", "text": "No parking" }, { "svg": "no-swimming", "text": "No swimming" }], "answer": 0 },
+          { "audio": "Danger! Be careful.", "options": [{ "svg": "exit", "text": "Exit" }, { "svg": "danger", "text": "Danger" }, { "svg": "stop", "text": "Stop" }], "answer": 1 },
+          { "audio": "Do not enter.", "options": [{ "svg": "restroom", "text": "Restrooms" }, { "svg": "crosswalk", "text": "Crosswalk" }, { "svg": "no-entry", "text": "Do not enter" }], "answer": 2 },
+          { "audio": "Drive slowly. Children are crossing.", "options": [{ "svg": "school-zone", "text": "School zone" }, { "svg": "hospital", "text": "Hospital" }, { "svg": "bus-stop", "text": "Bus stop" }], "answer": 0 }
+        ]
+      },
+      {
+        "id": "l3", "type": "listen-tf", "title": "Lost in Granada",
+        "instructions": "Escucha el diálogo. Luego di si cada oración es verdadera (True) o falsa (False).",
+        "dialogue": [
+          { "speaker": "Tourist", "text": "Excuse me, how do I get to the cathedral?", "voice": "female" },
+          { "speaker": "Boy", "text": "Go straight for three blocks. Then turn left at the bank.", "voice": "male" },
+          { "speaker": "Tourist", "text": "Turn left at the bank. OK. Is it far?", "voice": "female" },
+          { "speaker": "Boy", "text": "No, it isn't. The cathedral is across from the central park.", "voice": "male" },
+          { "speaker": "Tourist", "text": "Great! Is there a restaurant near there?", "voice": "female" },
+          { "speaker": "Boy", "text": "Yes, there are many restaurants on Calzada Street, next to the park.", "voice": "male" }
+        ],
+        "statements": [
+          { "text": "The tourist wants to go to the cathedral.", "answer": true },
+          { "text": "She must turn right at the bank.", "answer": false, "explain": "*Turn left at the bank.*" },
+          { "text": "The cathedral is across from the central park.", "answer": true },
+          { "text": "There aren't any restaurants near the park.", "answer": false, "explain": "*There are many restaurants on Calzada Street.*" }
+        ]
+      },
+      {
+        "id": "l4", "type": "dictation", "title": "Short dictation",
+        "instructions": "Escucha y escribe la oración.",
+        "items": [
+          { "answer": "Turn left at the corner." },
+          { "answer": "The bank is next to the park." },
+          { "answer": "You mustn't smoke here." },
+          { "answer": "Where is the hospital?" }
+        ]
+      }
+    ],
+
+    "reading": [
+      {
+        "id": "r1", "type": "reading", "title": "My town",
+        "instructions": "Lee el texto y responde las preguntas.",
+        "textTitle": "Welcome to Boaco!", "icon": { "emoji": "🏘️" },
+        "text": "Hi! I'm Marcos and I live in Boaco. It's a small, quiet town in the mountains. In the center there is a beautiful church and a park with big trees. The market is next to the church. My school is across from the park. There is a hospital on Central Avenue and two pharmacies near it. There isn't a cinema, so on weekends my friends and I play soccer in the park or go to the river. You mustn't swim in the river when it rains because it's dangerous.",
+        "questions": [
+          { "q": "What is Boaco like?", "options": ["Big and noisy", "Small and quiet", "Near the beach"], "answer": 1 },
+          { "q": "Where is the market?", "options": ["Next to the church", "Across from the park", "On Central Avenue"], "answer": 0 },
+          { "q": "Where is Marcos's school?", "options": ["Next to the hospital", "Near the river", "Across from the park"], "answer": 2 },
+          { "q": "Is there a cinema in Boaco?", "options": ["Yes, there is.", "No, there isn't."], "answer": 1 },
+          { "q": "When mustn't you swim in the river?", "options": ["When it rains", "On weekends", "In the morning"], "answer": 0 }
+        ]
+      },
+      {
+        "id": "r2", "type": "match", "title": "Signs and meanings",
+        "instructions": "Relaciona cada señal con su significado.",
+        "pairs": [
+          ["STOP", "You must stop."],
+          ["NO SMOKING", "You mustn't smoke."],
+          ["DO NOT ENTER", "You mustn't go in."],
+          ["EXIT", "Go out here."],
+          ["DANGER", "Be careful!"]
+        ]
+      },
+      {
+        "id": "r3", "type": "reading", "title": "Read the map",
+        "instructions": "Lee la descripción del mapa y responde.",
+        "textTitle": "Central Street", "icon": { "emoji": "🗺️" },
+        "text": "On the north side of Central Street, from left to right, there is a **bank**, a **pharmacy** and a **restaurant**.\nOn the south side, across the street, there is a **school**, a **park** and a **church**.\nThe **bus stop** is on the corner, next to the church.",
+        "questions": [
+          { "q": "What is between the bank and the restaurant?", "options": ["The pharmacy", "The park", "The school"], "answer": 0 },
+          { "q": "What is across from the bank?", "options": ["The church", "The school", "The restaurant"], "answer": 1 },
+          { "q": "Where is the bus stop?", "options": ["Next to the bank", "Next to the church", "Between the school and the park"], "answer": 1 },
+          { "q": "What is across from the pharmacy?", "options": ["The park", "The church", "The bank"], "answer": 0 }
+        ]
+      },
+      {
+        "id": "r4", "type": "match", "title": "Where do you go?",
+        "instructions": "Relaciona cada necesidad con el lugar.",
+        "pairs": [
+          ["I need medicine.", "pharmacy"],
+          ["I want to buy fruit.", "market"],
+          ["I'm very sick.", "hospital"],
+          ["I need money.", "bank"],
+          ["I'm hungry.", "restaurant"]
+        ]
+      }
+    ],
+
+    "writing": [
+      {
+        "id": "w1", "type": "gap-fill", "title": "Prepositions of place",
+        "instructions": "Elige la preposición correcta.",
+        "wordBank": ["next to", "across from", "between", "on"],
+        "items": [
+          { "text": "🏦 💊 🍴 The pharmacy is ___ the bank and the restaurant.", "answers": ["between"] },
+          { "text": "The school and the bank are on opposite sides of the street. The school is ___ the bank.", "answers": ["across from"] },
+          { "text": "The bus stop and the church are side by side. The bus stop is ___ the church.", "answers": ["next to"] },
+          { "text": "The park is ___ Central Street.", "answers": ["on"] }
+        ]
+      },
+      {
+        "id": "w2", "type": "gap-fill", "title": "Must or mustn't?",
+        "instructions": "Mira la señal y elige **must** o **mustn't**.",
+        "wordBank": ["must", "mustn't"],
+        "items": [
+          { "text": "🛑 You ___ stop at the corner.", "answers": ["must"] },
+          { "text": "🚭 You ___ smoke in the hospital.", "answers": ["mustn't"] },
+          { "text": "🚸 Drivers ___ drive slowly near schools.", "answers": ["must"] },
+          { "text": "⛔ You ___ enter this room.", "answers": ["mustn't"] },
+          { "text": "🏊‍♂️❌ You ___ swim here.", "answers": ["mustn't"] }
+        ]
+      },
+      {
+        "id": "w3", "type": "word-order", "title": "Make sentences",
+        "instructions": "Toca las palabras en el orden correcto.",
+        "items": [
+          { "answer": "Go straight for two blocks." },
+          { "answer": "The bank is across from the park." },
+          { "answer": "Excuse me, where is the pharmacy?" },
+          { "answer": "You mustn't park here." },
+          { "answer": "Turn right at the church." }
+        ]
+      },
+      {
+        "id": "w4", "type": "form-fill", "title": "Write the sign",
+        "instructions": "Lee la situación y escribe la señal en inglés.",
+        "formTitle": "🪧 Signs",
+        "fields": [
+          { "label": "You can't smoke here.", "labelEs": "prohibido fumar", "answer": ["No smoking"], "placeholder": "No ___" },
+          { "label": "Cars must stop here.", "labelEs": "alto", "answer": ["Stop"], "placeholder": "S___" },
+          { "label": "This is the way out.", "labelEs": "salida", "answer": ["Exit"], "placeholder": "E___" },
+          { "label": "Be careful! It's dangerous.", "labelEs": "peligro", "answer": ["Danger"], "placeholder": "D___" },
+          { "label": "You can't swim here.", "labelEs": "prohibido nadar", "answer": ["No swimming"], "placeholder": "No ___" }
+        ]
+      },
+      {
+        "id": "w5", "type": "guided-writing", "title": "Describe your town",
+        "instructions": "Escribe de 3 a 5 oraciones sobre tu barrio o ciudad. Usa la plantilla.",
+        "template": ["I live in ___. It's a ___ (big / small / quiet) town.", "There is a ___. There are ___.", "The ___ is next to / across from the ___.", "My favorite place is ___ because ___."],
+        "minSentences": 3,
+        "placeholder": "I live in Masaya…",
+        "checks": [
+          { "pattern": "\\bthere (is|are)\\b|there's", "label": "Usaste there is / there are.", "hint": "Usa *There is…* o *There are…*" },
+          { "pattern": "next to|across from|between|near|on the corner", "label": "Usaste una preposición de lugar.", "hint": "Di dónde está algo: *The bank is next to the park.*" },
+          { "pattern": "\\b(park|church|market|supermarket|bank|pharmacy|hospital|police|restaurant|school|street|bus stop|cinema|museum|store|shop|river|lake|beach)s?\\b", "label": "Nombraste lugares de la ciudad.", "hint": "Nombra lugares: *park, church, market…*" }
+        ],
+        "model": "I live in Masaya. It's a big town. There is a big market and there are many churches. The park is next to the church. My favorite place is the market because I love the food."
+      }
+    ],
+
+    "speaking": [
+      {
+        "id": "s1", "type": "shadowing", "title": "Directions",
+        "instructions": "Escucha y repite cada frase en voz alta.",
+        "items": [
+          { "text": "Excuse me, where is the bank?", "es": "Disculpe, ¿dónde está el banco?" },
+          { "text": "Go straight for two blocks.", "es": "Siga derecho dos cuadras." },
+          { "text": "Turn left at the corner.", "es": "Doble a la izquierda en la esquina." },
+          { "text": "It's next to the pharmacy.", "es": "Está al lado de la farmacia." },
+          { "text": "You mustn't smoke here.", "es": "No debe fumar aquí." }
+        ]
+      },
+      {
+        "id": "s2", "type": "speak-answer", "title": "Talk about your town",
+        "instructions": "Escucha la pregunta y responde en voz alta.",
+        "items": [
+          { "question": "Where do you live?", "accept": ["live in", "\\bin \\w+", "^\\w+$"], "example": "I live in Managua." },
+          { "question": "Is there a park near your house?", "accept": ["\\b(yes|no)\\b", "there is", "there isn't", "there is not"], "example": "Yes, there is. It's next to the church." },
+          { "question": "What's your favorite place in your town?", "accept": ["favorite", "\\b(park|church|market|supermarket|restaurant|school|river|lake|beach|cinema|stadium|museum|house)\\b"], "example": "My favorite place is the park." },
+          { "question": "What does a stop sign mean?", "accept": ["must stop", "\\bstop\\b"], "example": "It means you must stop." }
+        ]
+      },
+      {
+        "id": "s3", "type": "roleplay", "title": "Helping a tourist",
+        "instructions": "Una turista te pide ayuda. Responde sus preguntas en inglés.",
+        "scene": "Estás en Central Street. La farmacia está entre el banco y el restaurante, y la parada de bus está al lado de la iglesia.",
+        "appName": "Tourist", "appVoice": "female",
+        "turns": [
+          { "role": "app", "text": "Excuse me! Do you speak English?" },
+          { "role": "student", "expected": "Yes, a little. Can I help you?", "accept": ["\\b(yes|little|help)\\b"] },
+          { "role": "app", "text": "Thank you! Where is the pharmacy?" },
+          { "role": "student", "expected": "It's between the bank and the restaurant.", "accept": ["between", "next to", "across from", "bank", "restaurant", "straight", "left", "right"] },
+          { "role": "app", "text": "Great. And is there a bus stop near here?" },
+          { "role": "student", "expected": "Yes, there is. It's next to the church.", "accept": ["\\b(yes|no)\\b", "there is", "church", "corner"] },
+          { "role": "app", "text": "Can I smoke at the bus stop?" },
+          { "role": "student", "expected": "No, you mustn't smoke there.", "accept": ["\\bno\\b", "must not", "mustn't", "can't", "cannot"] },
+          { "role": "app", "text": "OK! Thank you so much for your help." },
+          { "role": "student", "expected": "You're welcome! Have a nice day.", "accept": ["welcome", "nice day", "bye", "no problem"] }
+        ]
+      }
+    ]
+  },
+
+  "quiz": [
+    { "skill": "listening", "type": "listen-choice", "instructions": "Escucha y elige.", "items": [
+      { "audio": "church", "options": [{ "emoji": "⛪", "text": "church" }, { "emoji": "🏦", "text": "bank" }, { "emoji": "🧺", "text": "market" }], "answer": 0 } ] },
+    { "skill": "listening", "type": "listen-choice", "instructions": "Escucha y elige la señal.", "items": [
+      { "audio": "You mustn't park here.", "options": [{ "svg": "no-entry", "text": "Do not enter" }, { "svg": "no-parking", "text": "No parking" }, { "svg": "stop", "text": "Stop" }], "answer": 1 } ] },
+    { "skill": "listening", "type": "dictation", "instructions": "Escucha y escribe.", "items": [
+      { "answer": "Go straight and turn right." } ] },
+    { "skill": "reading", "type": "reading", "instructions": "Lee y responde.",
+      "text": "The supermarket is on Lake Street. It's between the police station and the bank.",
+      "questions": [ { "q": "What is next to the bank?", "options": ["The police station", "The supermarket", "Lake Street"], "answer": 1 } ] },
+    { "skill": "reading", "type": "reading", "instructions": "Lee la señal y responde.", "icon": { "svg": "no-swimming", "alt": "Señal de prohibido nadar" }, "textTitle": "At the river",
+      "text": "**NO SWIMMING** – Strong current. Danger!",
+      "questions": [ { "q": "What does the sign mean?", "options": ["You must swim here.", "You mustn't swim here.", "You can swim with a friend."], "answer": 1 } ] },
+    { "skill": "writing", "type": "gap-fill", "instructions": "Elige must o mustn't.", "items": [
+      { "text": "You ___ run in the hospital.", "answers": ["mustn't"], "wordBank": ["must", "mustn't"] } ] },
+    { "skill": "writing", "type": "gap-fill", "instructions": "Elige la preposición.", "items": [
+      { "text": "The café is ___ the bank and the church.", "answers": ["between"], "wordBank": ["between", "next to", "on"] } ] },
+    { "skill": "writing", "type": "word-order", "instructions": "Ordena las palabras.", "items": [
+      { "answer": "The hospital is near the park." } ] },
+    { "skill": "speaking", "type": "shadowing", "instructions": "Escucha y repite.", "items": [
+      { "text": "Excuse me, how do I get to the market?" } ] },
+    { "skill": "speaking", "type": "speak-answer", "instructions": "Responde en voz alta.", "items": [
+      { "question": "Excuse me, where is the bank?", "accept": ["next to", "across from", "between", "near", "corner", "straight", "left", "right", "street"], "example": "It's next to the park." } ] }
+  ]
+}

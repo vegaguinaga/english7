@@ -5,6 +5,6 @@
     { "id": "unit3", "file": "data/unit3.json", "available": true,  "emoji": "🏫", "color": "#6A1B9A", "title": "My School", "titleEs": "Mi escuela", "badge": { "emoji": "🎓", "name": "School Star" } },
     { "id": "unit4", "file": "data/unit4.json", "available": true,  "emoji": "⏰", "color": "#EF6C00", "title": "My Daily Routine", "titleEs": "Mi rutina diaria", "badge": { "emoji": "⏰", "name": "Routine Master" } },
     { "id": "unit5", "file": "data/unit5.json", "available": true,  "emoji": "🍽️", "color": "#C62828", "title": "Food and Drinks", "titleEs": "Comidas y bebidas", "badge": { "emoji": "🍽️", "name": "Food Lover" } },
-    { "id": "unit6", "file": "data/unit6.json", "available": false, "emoji": "🚦", "color": "#00838F", "title": "Places and Signs", "titleEs": "Lugares y señales" }
+    { "id": "unit6", "file": "data/unit6.json", "available": true,  "emoji": "🚦", "color": "#00838F", "title": "Places and Signs", "titleEs": "Lugares y señales", "badge": { "emoji": "🧭", "name": "Town Explorer" } }
   ]
 }

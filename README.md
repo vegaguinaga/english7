@@ -42,7 +42,12 @@ Al publicarla tendrá una dirección `https://`, que es necesaria para que el **
 2. Arrastra la carpeta completa del proyecto a la página.
 3. Netlify te da una dirección `https://….netlify.app` al instante.
 
+Versión publicada: **https://vegaguinaga.github.io/cristel/**
+
 No hace falta compilar nada: son archivos HTML, CSS, JS y JSON tal cual.
+
+> ⚠️ No borres el archivo vacío `.nojekyll`. Sin él, GitHub Pages no publica los archivos que empiezan
+> con `_` (`_common.js`, `_speak.js`) y la app se queda en blanco.
 
 ## Instalarla en el celular
 

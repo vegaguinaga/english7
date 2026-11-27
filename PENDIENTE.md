@@ -17,10 +17,10 @@
 - Prueba completa con Playwright (26/11/2026): los 96 ejercicios y 6 quiz se resuelven al 100%, insignias, modo oscuro,
   velocidad, modo docente (PIN, reiniciar), cambio de modo si falla el reconocimiento de voz y uso sin conexión: todo OK.
 
+- `README.md` en español: abrir, publicar (GitHub Pages / Netlify), instalar, modo docente y cómo editar o agregar unidades.
+
 ## Falta
 1. Probar en un celular real la voz (TTS) y el micrófono: en la prueba automática se simularon.
-2. README en español (cómo abrir, publicar en GitHub Pages/Netlify, agregar unidades: `available: true` en `units.json`,
-   añadirla a `ASSETS` en `sw.js`, subir `CACHE` y correr `node tools/check-data.mjs`).
 
 ## Cómo abrirla
 Necesita un servidor local (no funciona con doble clic): `python -m http.server 8000`

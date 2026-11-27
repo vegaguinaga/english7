@@ -31,15 +31,15 @@
       "title": "Verb to be (ser / estar)",
       "explanation": "El verbo **to be** significa *ser* o *estar*. Cambia según la persona: **am**, **is**, **are**.\nEn conversación usamos contracciones: I am → **I'm**.",
       "table": {
-        "headers": ["Persona", "Forma completa", "Contracción", "Español"],
+        "headers": ["Persona", "To be (contracción)", "Español"],
         "rows": [
-          ["I", "I am", "I'm", "yo soy / estoy"],
-          ["You", "you are", "you're", "tú eres / estás"],
-          ["He", "he is", "he's", "él es / está"],
-          ["She", "she is", "she's", "ella es / está"],
-          ["It", "it is", "it's", "eso es / está"],
-          ["We", "we are", "we're", "nosotros somos / estamos"],
-          ["They", "they are", "they're", "ellos son / están"]
+          ["I", "I am (I'm)", "yo soy / estoy"],
+          ["You", "you are (you're)", "tú eres / estás"],
+          ["He", "he is (he's)", "él es / está"],
+          ["She", "she is (she's)", "ella es / está"],
+          ["It", "it is (it's)", "eso es / está"],
+          ["We", "we are (we're)", "nosotros somos"],
+          ["They", "they are (they're)", "ellos son / están"]
         ]
       },
       "examples": [

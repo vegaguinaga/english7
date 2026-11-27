@@ -1,0 +1,324 @@
+{
+  "vocabulary": [
+    { "en": "family", "es": "familia", "icon": { "emoji": "👨‍👩‍👧‍👦" }, "example": "This is my family." },
+    { "en": "mother", "es": "madre / mamá", "icon": { "emoji": "👩" }, "example": "My mother is a nurse." },
+    { "en": "father", "es": "padre / papá", "icon": { "emoji": "👨" }, "example": "My father is tall." },
+    { "en": "parents", "es": "padres (papá y mamá)", "icon": { "emoji": "👫" }, "example": "My parents are from Matagalpa." },
+    { "en": "brother", "es": "hermano", "icon": { "emoji": "👦" }, "example": "I have one brother." },
+    { "en": "sister", "es": "hermana", "icon": { "emoji": "👧" }, "example": "My sister is ten years old." },
+    { "en": "grandmother", "es": "abuela", "icon": { "emoji": "👵" }, "example": "My grandmother lives with us." },
+    { "en": "grandfather", "es": "abuelo", "icon": { "emoji": "👴" }, "example": "My grandfather is sixty-five." },
+    { "en": "grandparents", "es": "abuelos", "icon": { "emoji": "🧓" }, "example": "My grandparents are very kind." },
+    { "en": "aunt", "es": "tía", "icon": { "emoji": "👩‍🦱" }, "example": "My aunt is a teacher." },
+    { "en": "uncle", "es": "tío", "icon": { "emoji": "👨‍🦱" }, "example": "My uncle has a big farm." },
+    { "en": "cousin", "es": "primo / prima", "icon": { "emoji": "🧒" }, "example": "My cousin Lucía is my best friend." },
+    { "en": "son", "es": "hijo", "icon": { "emoji": "👶" }, "example": "Pedro is their son." },
+    { "en": "daughter", "es": "hija", "icon": { "emoji": "👧" }, "example": "Ana is their daughter." },
+    { "en": "baby", "es": "bebé", "icon": { "emoji": "🍼" }, "example": "We have a new baby in the family." },
+    { "en": "tall", "es": "alto / alta", "icon": { "emoji": "🦒" }, "example": "My brother is tall." },
+    { "en": "short", "es": "bajo / baja", "icon": { "emoji": "🐭" }, "example": "My grandmother is short." },
+    { "en": "young", "es": "joven", "icon": { "emoji": "🧑" }, "example": "My aunt is young." },
+    { "en": "old", "es": "mayor / viejo", "icon": { "emoji": "🧓" }, "example": "My grandfather is old." },
+    { "en": "funny", "es": "divertido / chistoso", "icon": { "emoji": "😂" }, "example": "My uncle is very funny." },
+    { "en": "kind", "es": "amable", "icon": { "emoji": "💖" }, "example": "My mother is kind." },
+    { "en": "hair", "es": "pelo / cabello", "icon": { "emoji": "💇" }, "example": "She has long black hair." },
+    { "en": "eyes", "es": "ojos", "icon": { "emoji": "👀" }, "example": "He has brown eyes." },
+    { "en": "pet", "es": "mascota", "icon": { "emoji": "🐶" }, "example": "We have a pet. It's a dog." }
+  ],
+
+  "grammar": [
+    {
+      "title": "Have / has (tener)",
+      "explanation": "Usamos **have** con I, you, we, they y **has** con he, she, it.\nEn negativo: **don't have** / **doesn't have**. En pregunta: **Do** you have…? / **Does** she have…?",
+      "table": {
+        "headers": ["Persona", "Afirmativo", "Negativo"],
+        "rows": [
+          ["I / You", "I **have** a sister.", "I **don't have** a brother."],
+          ["He / She", "She **has** a cat.", "He **doesn't have** a dog."],
+          ["We / They", "They **have** two kids.", "We **don't have** pets."]
+        ]
+      },
+      "examples": [
+        { "en": "Do you have any brothers? Yes, I do. I have two.", "es": "¿Tienes hermanos? Sí. Tengo dos." },
+        { "en": "Does your father have a car? No, he doesn't.", "es": "¿Tu papá tiene carro? No." }
+      ],
+      "tip": "Con **doesn't** el verbo vuelve a **have**: *She doesn't have…* (no *doesn't has*)."
+    },
+    {
+      "title": "Possessive 's (de)",
+      "explanation": "Para decir de quién es algo, agrega **'s** al nombre de la persona.\n*El hermano de Ana* = **Ana's brother**.",
+      "examples": [
+        { "en": "Carlos is Ana's brother.", "es": "Carlos es el hermano de Ana." },
+        { "en": "My mother's name is Rosa.", "es": "El nombre de mi mamá es Rosa." },
+        { "en": "Luis is my uncle's son.", "es": "Luis es el hijo de mi tío." }
+      ],
+      "tip": "El orden es al revés que en español: primero el dueño, luego la cosa."
+    },
+    {
+      "title": "Describing people",
+      "explanation": "Para describir usamos **to be + adjetivo** o **have/has + rasgo**.\nEl adjetivo va **antes** del sustantivo y no cambia en plural.",
+      "table": {
+        "headers": ["Estructura", "Ejemplo", "Español"],
+        "rows": [
+          ["to be + adjective", "My father **is tall**.", "Mi papá es alto."],
+          ["have/has + hair", "She **has long black hair**.", "Ella tiene el pelo largo y negro."],
+          ["have/has + eyes", "He **has brown eyes**.", "Él tiene ojos cafés."]
+        ]
+      },
+      "examples": [
+        { "en": "My sisters are funny.", "es": "Mis hermanas son divertidas." },
+        { "en": "My grandmother has short white hair.", "es": "Mi abuela tiene el pelo corto y blanco." }
+      ],
+      "tip": "Se dice *black hair* (no *hair black*) y *funny sisters* (no *funnys*)."
+    },
+    {
+      "title": "Numbers 20–100",
+      "explanation": "Para decir edades de adultos usamos las decenas y un guion: **twenty-one**, **thirty-five**.",
+      "table": {
+        "headers": ["Número", "En inglés"],
+        "rows": [
+          ["20", "twenty"], ["30", "thirty"], ["40", "forty"], ["50", "fifty"],
+          ["60", "sixty"], ["70", "seventy"], ["80", "eighty"], ["90", "ninety"], ["100", "one hundred"]
+        ]
+      },
+      "examples": [
+        { "en": "My mother is forty-two years old.", "es": "Mi mamá tiene cuarenta y dos años." }
+      ],
+      "tip": "*forty* se escribe **sin u** (no *fourty*). Cuidado: *thirteen* (13) ≠ *thirty* (30)."
+    }
+  ],
+
+  "skills": {
+    "listening": [
+      {
+        "id": "l1", "type": "listen-choice", "title": "Family members",
+        "instructions": "Escucha la palabra y elige el dibujo correcto.",
+        "items": [
+          { "audio": "grandmother", "options": [{ "emoji": "👵", "text": "grandmother" }, { "emoji": "👩", "text": "mother" }, { "emoji": "👧", "text": "sister" }], "answer": 0 },
+          { "audio": "brother", "options": [{ "emoji": "👨", "text": "father" }, { "emoji": "👦", "text": "brother" }, { "emoji": "👴", "text": "grandfather" }], "answer": 1 },
+          { "audio": "baby", "options": [{ "emoji": "🧒", "text": "cousin" }, { "emoji": "🐶", "text": "pet" }, { "emoji": "🍼", "text": "baby" }], "answer": 2 },
+          { "audio": "parents", "options": [{ "emoji": "👫", "text": "parents" }, { "emoji": "🧓", "text": "grandparents" }, { "emoji": "👨‍🦱", "text": "uncle" }], "answer": 0 }
+        ]
+      },
+      {
+        "id": "l2", "type": "listen-choice", "title": "How old are they?",
+        "instructions": "Escucha y elige el número correcto.",
+        "items": [
+          { "audio": "My father is forty years old.", "prompt": "How old is the father?", "options": ["14", "40", "44"], "answer": 1, "explain": "*forty* = 40, *fourteen* = 14." },
+          { "audio": "My grandmother is seventy-three.", "prompt": "How old is the grandmother?", "options": ["73", "63", "37"], "answer": 0 },
+          { "audio": "My uncle is fifty-eight.", "prompt": "How old is the uncle?", "options": ["85", "18", "58"], "answer": 2 },
+          { "audio": "My cousin is thirteen.", "prompt": "How old is the cousin?", "options": ["30", "13", "33"], "answer": 1 }
+        ]
+      },
+      {
+        "id": "l3", "type": "listen-tf", "title": "Marco's family photo",
+        "instructions": "Escucha el diálogo. Luego di si cada oración es verdadera (True) o falsa (False).",
+        "dialogue": [
+          { "speaker": "Julia", "text": "Is this your family, Marco?", "voice": "female" },
+          { "speaker": "Marco", "text": "Yes! This is my mother. Her name is Carmen. She's forty-one.", "voice": "male" },
+          { "speaker": "Julia", "text": "She's very pretty. Who's the tall man?", "voice": "female" },
+          { "speaker": "Marco", "text": "That's my uncle Roberto. He's my mother's brother. He's very funny.", "voice": "male" },
+          { "speaker": "Julia", "text": "Do you have any sisters?", "voice": "female" },
+          { "speaker": "Marco", "text": "No, I don't. But I have two brothers and a dog.", "voice": "male" }
+        ],
+        "statements": [
+          { "text": "Marco's mother is forty-one.", "answer": true },
+          { "text": "Roberto is Marco's father.", "answer": false, "explain": "Roberto is his **uncle**, his mother's brother." },
+          { "text": "Uncle Roberto is tall and funny.", "answer": true },
+          { "text": "Marco has a sister.", "answer": false, "explain": "*No, I don't. But I have two brothers.*" }
+        ]
+      },
+      {
+        "id": "l4", "type": "dictation", "title": "Short dictation",
+        "instructions": "Escucha y escribe la oración.",
+        "items": [
+          { "answer": "I have two sisters." },
+          { "answer": "My father is tall." },
+          { "answer": "She has brown eyes." },
+          { "answer": "This is my grandmother." }
+        ]
+      }
+    ],
+
+    "reading": [
+      {
+        "id": "r1", "type": "reading", "title": "Gabriela's family",
+        "instructions": "Lee el texto y responde las preguntas.",
+        "textTitle": "My family", "icon": { "emoji": "👨‍👩‍👧‍👦" },
+        "text": "Hello! I'm Gabriela and I live in Jinotega with my family. My father's name is José. He is forty-five and he is a farmer. He is tall and he has short black hair. My mother, Elena, is a teacher. She is very kind. I have one brother, Diego. He is nine and he is very funny. My grandmother lives with us too. She is seventy and she makes delicious nacatamales. We have a pet cat. Its name is Luna.",
+        "questions": [
+          { "q": "Where does Gabriela live?", "options": ["In Jinotega", "In Managua", "In Masaya"], "answer": 0 },
+          { "q": "How old is her father?", "options": ["54", "45", "40"], "answer": 1 },
+          { "q": "What is her mother's job?", "options": ["Farmer", "Nurse", "Teacher"], "answer": 2 },
+          { "q": "How many brothers does Gabriela have?", "options": ["One", "Two", "None"], "answer": 0 },
+          { "q": "Who is Luna?", "options": ["Her sister", "Her cat", "Her grandmother"], "answer": 1 }
+        ]
+      },
+      {
+        "id": "r2", "type": "match", "title": "Family pairs",
+        "instructions": "Relaciona cada palabra con su pareja (hombre ↔ mujer).",
+        "pairs": [
+          ["father", "mother"],
+          ["brother", "sister"],
+          ["grandfather", "grandmother"],
+          ["uncle", "aunt"],
+          ["son", "daughter"]
+        ]
+      },
+      {
+        "id": "r3", "type": "reading", "title": "Who is who?",
+        "instructions": "Lee las pistas y responde.",
+        "textTitle": "The López family", "icon": { "emoji": "🌳" },
+        "text": "Mario and Rosa are married. They have two children: Ana and Luis. Ana is married to Pedro. Ana and Pedro have a baby girl. Her name is Sofi.",
+        "questions": [
+          { "q": "Who is Luis's sister?", "options": ["Rosa", "Ana", "Sofi"], "answer": 1 },
+          { "q": "Rosa is Sofi's…", "options": ["mother", "aunt", "grandmother"], "answer": 2, "explain": "Rosa is Ana's mother, and Ana is Sofi's mother." },
+          { "q": "Luis is Sofi's…", "options": ["uncle", "father", "cousin"], "answer": 0, "explain": "Luis is the brother of Sofi's mother." },
+          { "q": "Mario and Rosa are Ana's…", "options": ["grandparents", "parents", "cousins"], "answer": 1 }
+        ]
+      },
+      {
+        "id": "r4", "type": "match", "title": "Descriptions",
+        "instructions": "Relaciona cada oración con su significado en español.",
+        "pairs": [
+          ["He is tall.", "Él es alto."],
+          ["She is short.", "Ella es baja."],
+          ["He has brown eyes.", "Él tiene ojos cafés."],
+          ["She has long hair.", "Ella tiene el pelo largo."],
+          ["My uncle is funny.", "Mi tío es divertido."]
+        ]
+      }
+    ],
+
+    "writing": [
+      {
+        "id": "w1", "type": "gap-fill", "title": "Have or has?",
+        "instructions": "Elige **have** o **has**.",
+        "wordBank": ["have", "has"],
+        "items": [
+          { "text": "I ___ two brothers.", "answers": ["have"] },
+          { "text": "My sister ___ a cat.", "answers": ["has"] },
+          { "text": "We ___ a big family.", "answers": ["have"] },
+          { "text": "My grandfather ___ white hair.", "answers": ["has"] },
+          { "text": "They ___ three children.", "answers": ["have"] },
+          { "text": "He ___ brown eyes and I ___ black eyes.", "answers": ["has", "have"] }
+        ]
+      },
+      {
+        "id": "w2", "type": "gap-fill", "title": "Family words",
+        "instructions": "Escribe la palabra de familia correcta.",
+        "items": [
+          { "text": "My mother's mother is my ___.", "answers": [["grandmother", "grandma"]] },
+          { "text": "My father's brother is my ___.", "answers": ["uncle"] },
+          { "text": "My aunt's son is my ___.", "answers": ["cousin"] },
+          { "text": "My parents' daughter is my ___.", "answers": ["sister"], "explain": "Si eres mujer, ¡también eres tú! 😄" }
+        ]
+      },
+      {
+        "id": "w3", "type": "word-order", "title": "Make sentences",
+        "instructions": "Toca las palabras en el orden correcto.",
+        "items": [
+          { "answer": "I have one sister." },
+          { "answer": "My mother is very kind." },
+          { "answer": "She has long black hair." },
+          { "answer": "Pedro is Ana's brother." },
+          { "answer": "Do you have any cousins?" }
+        ]
+      },
+      {
+        "id": "w4", "type": "form-fill", "title": "Complete the family card",
+        "instructions": "Lee el texto y completa la ficha de la familia de Kevin.",
+        "text": "Hi! I'm Kevin. My mother's name is Teresa. She is thirty-eight. My father's name is Óscar. I have one sister, Paola. She is eight. Our dog's name is Max.",
+        "formTitle": "👨‍👩‍👧 Kevin's family",
+        "fields": [
+          { "label": "Mother's name", "labelEs": "nombre de la mamá", "kind": "name", "answer": "Teresa" },
+          { "label": "Mother's age", "labelEs": "edad de la mamá", "kind": "number", "answer": ["38", "thirty-eight", "thirty eight"] },
+          { "label": "Father's name", "labelEs": "nombre del papá", "kind": "name", "answer": ["Óscar", "Oscar"] },
+          { "label": "Sister's name", "labelEs": "nombre de la hermana", "kind": "name", "answer": "Paola" },
+          { "label": "Sister's age", "labelEs": "edad de la hermana", "kind": "number", "answer": ["8", "eight"] },
+          { "label": "Pet's name", "labelEs": "nombre de la mascota", "kind": "name", "answer": "Max" }
+        ]
+      },
+      {
+        "id": "w5", "type": "guided-writing", "title": "Describe your family",
+        "instructions": "Escribe de 3 a 5 oraciones sobre tu familia. Usa la plantilla.",
+        "template": ["There are ___ people in my family.", "My mother's name is ___. She is ___.", "I have ___ brother(s) / sister(s).", "My ___ is very ___ (funny / kind / tall)."],
+        "minSentences": 3,
+        "placeholder": "There are five people in my family…",
+        "checks": [
+          { "pattern": "\\b(mother|father|mom|dad|brother|sister|grandmother|grandfather|aunt|uncle|cousin)s?\\b", "label": "Nombraste a tu familia.", "hint": "Menciona a alguien de tu familia: *my mother, my brother…*" },
+          { "pattern": "\\b(have|has)\\b", "label": "Usaste have / has.", "hint": "Usa *have* o *has*: *I have one sister.*" },
+          { "pattern": "\\b(tall|short|young|old|funny|kind|nice|pretty|smart|happy|strong|beautiful)\\b", "label": "Describiste a alguien.", "hint": "Describe a alguien: *My father is tall.*" }
+        ],
+        "model": "There are four people in my family. My mother's name is Marta. She is very kind. I have one brother. His name is Luis and he is funny."
+      }
+    ],
+
+    "speaking": [
+      {
+        "id": "s1", "type": "shadowing", "title": "Repeat the family words",
+        "instructions": "Escucha y repite cada frase en voz alta.",
+        "items": [
+          { "text": "This is my family.", "es": "Esta es mi familia." },
+          { "text": "I have two brothers.", "es": "Tengo dos hermanos." },
+          { "text": "My grandmother is seventy.", "es": "Mi abuela tiene setenta años." },
+          { "text": "She has long black hair.", "es": "Ella tiene el pelo largo y negro." },
+          { "text": "My uncle is very funny.", "es": "Mi tío es muy divertido." }
+        ]
+      },
+      {
+        "id": "s2", "type": "speak-answer", "title": "Talk about your family",
+        "instructions": "Escucha la pregunta y responde en voz alta.",
+        "items": [
+          { "question": "How many people are there in your family?", "accept": ["\\b(two|three|four|five|six|seven|eight|nine|ten|eleven|twelve)\\b", "people"], "example": "There are five people in my family." },
+          { "question": "Do you have any brothers or sisters?", "accept": ["\\b(yes|no)\\b", "brother", "sister", "have"], "example": "Yes, I do. I have one sister." },
+          { "question": "What's your mother's name?", "accept": ["name is", "her name", "^\\w+$", "mother is"], "example": "Her name is Rosa." },
+          { "question": "Who is the funniest person in your family?", "accept": ["my \\w+", "funny", "funniest"], "example": "My uncle is the funniest." }
+        ]
+      },
+      {
+        "id": "s3", "type": "roleplay", "title": "Showing a family photo",
+        "instructions": "Tu amiga Lily quiere conocer a tu familia. Ella habla primero.",
+        "scene": "Le enseñas a Lily una foto de tu familia en tu celular.",
+        "appName": "Lily", "appVoice": "female",
+        "turns": [
+          { "role": "app", "text": "Wow, nice photo! Is this your family?" },
+          { "role": "student", "expected": "Yes, this is my family.", "accept": ["yes", "my family"] },
+          { "role": "app", "text": "Who is this woman?" },
+          { "role": "student", "expected": "She is my ___.", "accept": ["my (mother|mom|aunt|grandmother|grandma|sister|cousin)", "she is"], "example": "She is my mother." },
+          { "role": "app", "text": "She's pretty! Do you have any brothers or sisters?" },
+          { "role": "student", "expected": "Yes, I have ___. / No, I don't.", "accept": ["\\b(yes|no)\\b", "have", "brother", "sister"], "example": "Yes, I have one brother." },
+          { "role": "app", "text": "Cool! What is he like?" },
+          { "role": "student", "expected": "He is ___.", "accept": ["\\b(tall|short|young|old|funny|kind|nice|smart|happy)\\b", "he is", "he's"], "example": "He is tall and funny." },
+          { "role": "app", "text": "Your family is great!" },
+          { "role": "student", "expected": "Thank you!", "accept": ["thank", "thanks"] }
+        ]
+      }
+    ]
+  },
+
+  "quiz": [
+    { "skill": "listening", "type": "listen-choice", "instructions": "Escucha y elige.", "items": [
+      { "audio": "aunt", "options": [{ "emoji": "👩‍🦱", "text": "aunt" }, { "emoji": "👨‍🦱", "text": "uncle" }, { "emoji": "👵", "text": "grandmother" }], "answer": 0 } ] },
+    { "skill": "listening", "type": "listen-choice", "instructions": "Escucha y elige el número.", "items": [
+      { "audio": "My grandfather is eighty-two.", "options": ["28", "82", "72"], "answer": 1 } ] },
+    { "skill": "listening", "type": "dictation", "instructions": "Escucha y escribe.", "items": [
+      { "answer": "My sister has a cat." } ] },
+    { "skill": "reading", "type": "reading", "instructions": "Lee y responde.",
+      "text": "My name is Rafael. My father has a brother. His name is Tomás. Tomás has two daughters.",
+      "questions": [ { "q": "Tomás's daughters are Rafael's…", "options": ["sisters", "cousins", "aunts"], "answer": 1 } ] },
+    { "skill": "reading", "type": "reading", "instructions": "Lee y responde.",
+      "text": "Hi! I'm Laura. My mother is short and she has curly brown hair. My father is tall and he has short black hair.",
+      "questions": [ { "q": "Who is tall?", "options": ["Laura's mother", "Laura's father", "Laura"], "answer": 1 } ] },
+    { "skill": "writing", "type": "gap-fill", "instructions": "Elige have o has.", "items": [
+      { "text": "My cousin ___ a new bike.", "answers": ["has"], "wordBank": ["have", "has"] } ] },
+    { "skill": "writing", "type": "gap-fill", "instructions": "Escribe la palabra correcta.", "items": [
+      { "text": "My father's father is my ___.", "answers": [["grandfather", "grandpa"]] } ] },
+    { "skill": "writing", "type": "word-order", "instructions": "Ordena las palabras.", "items": [
+      { "answer": "Lucía is my mother's sister." } ] },
+    { "skill": "speaking", "type": "shadowing", "instructions": "Escucha y repite.", "items": [
+      { "text": "I have one brother and two sisters." } ] },
+    { "skill": "speaking", "type": "speak-answer", "instructions": "Responde en voz alta.", "items": [
+      { "question": "Do you have a pet?", "accept": ["\\b(yes|no)\\b", "dog", "cat", "pet"], "example": "Yes, I have a dog." } ] }
+  ]
+}

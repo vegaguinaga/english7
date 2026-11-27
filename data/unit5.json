@@ -1,0 +1,335 @@
+{
+  "vocabulary": [
+    { "en": "rice", "es": "arroz", "icon": { "emoji": "🍚" }, "example": "We eat rice every day." },
+    { "en": "beans", "es": "frijoles", "icon": { "emoji": "🫘" }, "example": "Gallo pinto has rice and beans." },
+    { "en": "bread", "es": "pan", "icon": { "emoji": "🍞" }, "example": "I have bread for breakfast." },
+    { "en": "cheese", "es": "queso", "icon": { "emoji": "🧀" }, "example": "I love tortillas with cheese." },
+    { "en": "egg", "es": "huevo", "icon": { "emoji": "🥚" }, "example": "I eat two eggs in the morning." },
+    { "en": "chicken", "es": "pollo", "icon": { "emoji": "🍗" }, "example": "We have chicken for lunch." },
+    { "en": "fish", "es": "pescado", "icon": { "emoji": "🐟" }, "example": "My grandfather likes fish." },
+    { "en": "meat", "es": "carne", "icon": { "emoji": "🥩" }, "example": "Do you eat meat?" },
+    { "en": "vegetables", "es": "verduras", "icon": { "emoji": "🥦" }, "example": "Vegetables are healthy." },
+    { "en": "fruit", "es": "fruta", "icon": { "emoji": "🍎" }, "example": "I eat fruit after school." },
+    { "en": "banana", "es": "banano / guineo", "icon": { "emoji": "🍌" }, "example": "Bananas are my favorite fruit." },
+    { "en": "mango", "es": "mango", "icon": { "emoji": "🥭" }, "example": "Mangoes are sweet." },
+    { "en": "orange", "es": "naranja", "icon": { "emoji": "🍊" }, "example": "I want an orange." },
+    { "en": "soup", "es": "sopa", "icon": { "emoji": "🍲" }, "example": "My mom makes delicious soup." },
+    { "en": "water", "es": "agua", "icon": { "emoji": "💧" }, "example": "Can I have some water, please?" },
+    { "en": "juice", "es": "jugo / fresco", "icon": { "emoji": "🧃" }, "example": "I'd like a glass of juice." },
+    { "en": "milk", "es": "leche", "icon": { "emoji": "🥛" }, "example": "Children need milk." },
+    { "en": "coffee", "es": "café", "icon": { "emoji": "☕" }, "example": "My parents drink coffee." },
+    { "en": "soda", "es": "gaseosa", "icon": { "emoji": "🥤" }, "example": "Soda has a lot of sugar." },
+    { "en": "sugar", "es": "azúcar", "icon": { "emoji": "🍬" }, "example": "Don't eat too much sugar." },
+    { "en": "delicious", "es": "delicioso / rico", "icon": { "emoji": "😋" }, "example": "This nacatamal is delicious!" },
+    { "en": "healthy", "es": "saludable", "icon": { "emoji": "💪" }, "example": "Fruit is healthy food." },
+    { "en": "hungry", "es": "con hambre", "icon": { "emoji": "🤤" }, "example": "I'm hungry. Let's eat!" },
+    { "en": "thirsty", "es": "con sed", "icon": { "emoji": "🥵" }, "example": "I'm thirsty. I want water." }
+  ],
+
+  "grammar": [
+    {
+      "title": "Countable and uncountable nouns",
+      "explanation": "Los sustantivos **contables** se pueden contar: *one egg, two eggs*.\nLos **incontables** no se cuentan y no tienen plural: *rice, water, milk, bread*.",
+      "table": {
+        "headers": ["Contable", "Incontable"],
+        "rows": [
+          ["an egg / two eggs", "rice"],
+          ["a banana / three bananas", "water"],
+          ["an orange / some oranges", "milk"],
+          ["a tortilla / five tortillas", "cheese"]
+        ]
+      },
+      "examples": [
+        { "en": "I eat two bananas every day.", "es": "Como dos bananos cada día." },
+        { "en": "I drink a lot of water.", "es": "Tomo mucha agua." }
+      ],
+      "tip": "Para contar incontables usa un recipiente: *a glass of milk, a cup of coffee, a bowl of soup*."
+    },
+    {
+      "title": "Some / any",
+      "explanation": "**some** = algo de / unos. Se usa en oraciones **afirmativas**.\n**any** = nada de / ningún. Se usa en **negativas** y **preguntas**.",
+      "table": {
+        "headers": ["", "Ejemplo", "Español"],
+        "rows": [
+          ["Afirmativo", "There is **some** milk.", "Hay algo de leche."],
+          ["Negativo", "There isn't **any** juice.", "No hay nada de jugo."],
+          ["Pregunta", "Are there **any** eggs?", "¿Hay huevos?"]
+        ]
+      },
+      "examples": [
+        { "en": "Can I have some water, please?", "es": "¿Me das agua, por favor?" },
+        { "en": "We don't have any bread.", "es": "No tenemos pan." }
+      ],
+      "tip": "Cuando ofreces o pides algo con amabilidad, usa **some** aunque sea pregunta: *Would you like some juice?*"
+    },
+    {
+      "title": "Like, love, don't like, hate",
+      "explanation": "Para hablar de gustos usamos estos verbos + comida.\nCon **he/she** recuerda la **-s**: *She likes…* / *He doesn't like…*",
+      "table": {
+        "headers": ["Verbo", "Significado", "Ejemplo"],
+        "rows": [
+          ["love", "encantar", "I **love** mangoes. 😍"],
+          ["like", "gustar", "I **like** chicken. 🙂"],
+          ["don't like", "no gustar", "I **don't like** fish. 😕"],
+          ["hate", "odiar", "I **hate** onions. 😖"]
+        ]
+      },
+      "examples": [
+        { "en": "Do you like vegetables? Yes, I do.", "es": "¿Te gustan las verduras? Sí." },
+        { "en": "My sister doesn't like coffee.", "es": "A mi hermana no le gusta el café." }
+      ],
+      "tip": "En inglés la persona va primero: *I like rice* = *Me gusta el arroz*. ¡No digas *Me like*!"
+    },
+    {
+      "title": "Ordering food: I'd like… / How much is it?",
+      "explanation": "**I'd like** (= I would like) es una forma amable de pedir.\nPara preguntar el precio: **How much is it?** / **How much are they?**",
+      "table": {
+        "headers": ["Frase", "Español"],
+        "rows": [
+          ["What would you like?", "¿Qué desea?"],
+          ["I'd like a quesillo, please.", "Quisiera un quesillo, por favor."],
+          ["Anything to drink?", "¿Algo de tomar?"],
+          ["How much is it?", "¿Cuánto es?"],
+          ["It's fifty córdobas.", "Son cincuenta córdobas."]
+        ]
+      },
+      "examples": [
+        { "en": "I'd like a glass of orange juice, please.", "es": "Quisiera un vaso de jugo de naranja, por favor." }
+      ],
+      "tip": "*I'd like* es más educado que *I want*. Úsalo en restaurantes y tiendas."
+    }
+  ],
+
+  "skills": {
+    "listening": [
+      {
+        "id": "l1", "type": "listen-choice", "title": "Food",
+        "instructions": "Escucha y elige el dibujo correcto.",
+        "items": [
+          { "audio": "cheese", "options": [{ "emoji": "🍞", "text": "bread" }, { "emoji": "🧀", "text": "cheese" }, { "emoji": "🥚", "text": "egg" }], "answer": 1 },
+          { "audio": "chicken", "options": [{ "emoji": "🍗", "text": "chicken" }, { "emoji": "🐟", "text": "fish" }, { "emoji": "🥩", "text": "meat" }], "answer": 0 },
+          { "audio": "mango", "options": [{ "emoji": "🍊", "text": "orange" }, { "emoji": "🍌", "text": "banana" }, { "emoji": "🥭", "text": "mango" }], "answer": 2 },
+          { "audio": "soup", "options": [{ "emoji": "🍚", "text": "rice" }, { "emoji": "🍲", "text": "soup" }, { "emoji": "🥦", "text": "vegetables" }], "answer": 1 }
+        ]
+      },
+      {
+        "id": "l2", "type": "listen-choice", "title": "Drinks and prices",
+        "instructions": "Escucha y elige la respuesta correcta.",
+        "items": [
+          { "audio": "I'm thirsty. Can I have some water?", "prompt": "What does she want?", "options": [{ "emoji": "💧", "text": "water" }, { "emoji": "🥛", "text": "milk" }, { "emoji": "☕", "text": "coffee" }], "answer": 0, "voice": "female" },
+          { "audio": "I'd like an orange juice, please.", "prompt": "What does he order?", "options": [{ "emoji": "🥤", "text": "soda" }, { "emoji": "🧃", "text": "orange juice" }, { "emoji": "🥛", "text": "milk" }], "answer": 1, "voice": "male" },
+          { "audio": "It's thirty-five córdobas.", "prompt": "How much is it?", "options": ["C$ 25", "C$ 53", "C$ 35"], "answer": 2 },
+          { "audio": "The nacatamal is eighty córdobas.", "prompt": "How much is the nacatamal?", "options": ["C$ 80", "C$ 18", "C$ 8"], "answer": 0 }
+        ]
+      },
+      {
+        "id": "l3", "type": "listen-tf", "title": "At the cafeteria",
+        "instructions": "Escucha el diálogo. Luego di si cada oración es verdadera (True) o falsa (False).",
+        "dialogue": [
+          { "speaker": "Seller", "text": "Good afternoon! What would you like?", "voice": "female" },
+          { "speaker": "Mateo", "text": "Hi! I'd like a chicken sandwich, please.", "voice": "male" },
+          { "speaker": "Seller", "text": "Sorry, there isn't any chicken today. We have cheese sandwiches.", "voice": "female" },
+          { "speaker": "Mateo", "text": "OK, a cheese sandwich, then. And a mango juice.", "voice": "male" },
+          { "speaker": "Seller", "text": "Sure. That's forty córdobas.", "voice": "female" },
+          { "speaker": "Mateo", "text": "Here you are. Thank you!", "voice": "male" }
+        ],
+        "statements": [
+          { "text": "Mateo wants a chicken sandwich at first.", "answer": true },
+          { "text": "There is chicken today.", "answer": false, "explain": "*Sorry, there isn't any chicken today.*" },
+          { "text": "Mateo orders a mango juice.", "answer": true },
+          { "text": "The food costs fifty córdobas.", "answer": false, "explain": "*That's forty córdobas.*" }
+        ]
+      },
+      {
+        "id": "l4", "type": "dictation", "title": "Short dictation",
+        "instructions": "Escucha y escribe la oración.",
+        "items": [
+          { "answer": "I like rice and beans." },
+          { "answer": "She doesn't like fish." },
+          { "answer": "Can I have some water?" },
+          { "answer": "How much is it?" }
+        ]
+      }
+    ],
+
+    "reading": [
+      {
+        "id": "r1", "type": "reading", "title": "Food in Nicaragua",
+        "instructions": "Lee el texto y responde las preguntas.",
+        "textTitle": "Our typical food", "icon": { "emoji": "🇳🇮" },
+        "text": "Hi! I'm Camila from Granada. In Nicaragua we love gallo pinto. It's rice and beans cooked together. Many families eat it for breakfast with eggs, cheese and tortillas. On Sundays my grandmother makes nacatamales. They are delicious! My favorite drink is pinolillo. It's made with corn and cacao. My brother doesn't like it; he prefers soda. My mother says soda isn't healthy because it has a lot of sugar.",
+        "questions": [
+          { "q": "What is gallo pinto?", "options": ["Chicken and rice", "Rice and beans", "Corn and cacao"], "answer": 1 },
+          { "q": "When does her grandmother make nacatamales?", "options": ["Every day", "On Sundays", "For breakfast"], "answer": 1 },
+          { "q": "What is pinolillo made with?", "options": ["Corn and cacao", "Milk and sugar", "Rice and fruit"], "answer": 0 },
+          { "q": "What does her brother prefer?", "options": ["Pinolillo", "Water", "Soda"], "answer": 2 },
+          { "q": "Why isn't soda healthy?", "options": ["It's cold", "It has a lot of sugar", "It's expensive"], "answer": 1 }
+        ]
+      },
+      {
+        "id": "r2", "type": "match", "title": "Food groups",
+        "instructions": "Relaciona cada comida con su grupo.",
+        "pairs": [
+          ["mango", "fruit"],
+          ["broccoli", "vegetable"],
+          ["chicken", "meat"],
+          ["milk", "drink"],
+          ["rice", "grain"]
+        ]
+      },
+      {
+        "id": "r3", "type": "reading", "title": "The menu",
+        "instructions": "Lee el menú y responde.",
+        "textTitle": "Doña Rosa's Café", "icon": { "emoji": "📋" },
+        "text": "**Gallo pinto with eggs** – C$ 70\n**Chicken soup** – C$ 90\n**Cheese tortilla** – C$ 40\n**Fruit salad** – C$ 50\n**Orange juice** – C$ 30\n**Coffee** – C$ 25\n**Water** – C$ 15",
+        "questions": [
+          { "q": "How much is the chicken soup?", "options": ["C$ 70", "C$ 90", "C$ 50"], "answer": 1 },
+          { "q": "What is the cheapest item?", "options": ["Water", "Coffee", "Orange juice"], "answer": 0 },
+          { "q": "Ana has C$ 50. What can she buy?", "options": ["Gallo pinto with eggs", "Chicken soup", "A cheese tortilla"], "answer": 2 },
+          { "q": "How much is a fruit salad and a coffee?", "options": ["C$ 75", "C$ 65", "C$ 80"], "answer": 0, "explain": "50 + 25 = 75." }
+        ]
+      },
+      {
+        "id": "r4", "type": "match", "title": "Containers",
+        "instructions": "Relaciona cada recipiente con la comida o bebida.",
+        "pairs": [
+          ["a glass of", "milk"],
+          ["a cup of", "coffee"],
+          ["a bowl of", "soup"],
+          ["a bottle of", "water"],
+          ["a piece of", "cheese"]
+        ]
+      }
+    ],
+
+    "writing": [
+      {
+        "id": "w1", "type": "gap-fill", "title": "Some or any?",
+        "instructions": "Elige **some** o **any**.",
+        "wordBank": ["some", "any"],
+        "items": [
+          { "text": "There is ___ milk in the fridge.", "answers": ["some"] },
+          { "text": "There aren't ___ eggs.", "answers": ["any"] },
+          { "text": "Are there ___ bananas?", "answers": ["any"] },
+          { "text": "I'd like ___ juice, please.", "answers": ["some"] },
+          { "text": "We have ___ rice, but we don't have ___ beans.", "answers": ["some", "any"] }
+        ]
+      },
+      {
+        "id": "w2", "type": "gap-fill", "title": "Like or likes?",
+        "instructions": "Elige la forma correcta.",
+        "items": [
+          { "text": "I ___ mangoes.", "answers": ["love"], "wordBank": ["love", "loves"] },
+          { "text": "My brother ___ chicken.", "answers": ["likes"], "wordBank": ["like", "likes"] },
+          { "text": "She ___ like fish.", "answers": ["doesn't"], "wordBank": ["don't", "doesn't"] },
+          { "text": "We ___ like coffee.", "answers": ["don't"], "wordBank": ["don't", "doesn't"] },
+          { "text": "___ you like vegetables?", "answers": ["do"], "wordBank": ["do", "does"] }
+        ]
+      },
+      {
+        "id": "w3", "type": "word-order", "title": "Make sentences",
+        "instructions": "Toca las palabras en el orden correcto.",
+        "items": [
+          { "answer": "I'd like a glass of water, please." },
+          { "answer": "My sister doesn't like vegetables." },
+          { "answer": "There isn't any milk." },
+          { "answer": "How much is the soup?" },
+          { "answer": "Do you like gallo pinto?" }
+        ]
+      },
+      {
+        "id": "w4", "type": "form-fill", "title": "Shopping list",
+        "instructions": "Lee lo que dice la mamá de Kevin y completa la lista de compras (escribe la cantidad en número).",
+        "text": "Kevin, please go to the market. We need two pounds of rice, one pound of beans, twelve eggs, three mangoes and one liter of milk. Thank you!",
+        "formTitle": "🛒 Shopping list",
+        "fields": [
+          { "label": "Rice (pounds)", "labelEs": "libras de arroz", "kind": "number", "answer": "2" },
+          { "label": "Beans (pounds)", "labelEs": "libras de frijoles", "kind": "number", "answer": "1" },
+          { "label": "Eggs", "labelEs": "huevos", "kind": "number", "answer": "12" },
+          { "label": "Mangoes", "labelEs": "mangos", "kind": "number", "answer": "3" },
+          { "label": "Milk (liters)", "labelEs": "litros de leche", "kind": "number", "answer": "1" }
+        ]
+      },
+      {
+        "id": "w5", "type": "guided-writing", "title": "My favorite food",
+        "instructions": "Escribe de 3 a 5 oraciones sobre la comida que te gusta y la que no. Usa la plantilla.",
+        "template": ["My favorite food is ___.", "I love ___ and I like ___.", "I don't like ___.", "For breakfast I usually eat ___."],
+        "minSentences": 3,
+        "placeholder": "My favorite food is…",
+        "checks": [
+          { "pattern": "\\b(like|likes|love|loves)\\b", "label": "Dijiste lo que te gusta.", "hint": "Usa *I like…* o *I love…*" },
+          { "pattern": "don't like|do not like|doesn't like|does not like|\\bhate\\b", "label": "Dijiste lo que no te gusta.", "hint": "Di algo que no te gusta: *I don't like fish.*" },
+          { "pattern": "\\b(rice|beans|bread|cheese|eggs?|chicken|fish|meat|vegetables|fruit|bananas?|mangoe?s?|oranges?|soup|water|juice|milk|coffee|soda|pizza|tortillas?|gallo pinto|nacatamal(es)?|quesillo|tacos?|pinolillo)\\b", "label": "Nombraste comidas en inglés.", "hint": "Nombra comidas en inglés: *rice, chicken, fruit…*" }
+        ],
+        "model": "My favorite food is nacatamal. I love mangoes and I like chicken soup. I don't like fish. For breakfast I usually eat gallo pinto with eggs."
+      }
+    ],
+
+    "speaking": [
+      {
+        "id": "s1", "type": "shadowing", "title": "Repeat the phrases",
+        "instructions": "Escucha y repite cada frase en voz alta.",
+        "items": [
+          { "text": "I'm hungry.", "es": "Tengo hambre." },
+          { "text": "Can I have some water, please?", "es": "¿Me das agua, por favor?" },
+          { "text": "I'd like a chicken sandwich.", "es": "Quisiera un sándwich de pollo." },
+          { "text": "How much is it?", "es": "¿Cuánto es?" },
+          { "text": "This soup is delicious!", "es": "¡Esta sopa está deliciosa!" }
+        ]
+      },
+      {
+        "id": "s2", "type": "speak-answer", "title": "Talk about food",
+        "instructions": "Escucha la pregunta y responde en voz alta.",
+        "items": [
+          { "question": "What's your favorite food?", "accept": ["favorite", "\\b(rice|beans|chicken|fish|meat|pizza|soup|tacos?|gallo pinto|nacatamal|quesillo|vigoron|fruit|tortilla|cheese|eggs?)\\b"], "example": "My favorite food is gallo pinto." },
+          { "question": "Do you like vegetables?", "accept": ["\\b(yes|no)\\b", "like", "love", "hate"], "example": "Yes, I do. I like carrots." },
+          { "question": "What do you drink in the morning?", "accept": ["\\b(coffee|milk|juice|water|tea|pinolillo|chocolate|soda)\\b"], "example": "I drink coffee with milk." },
+          { "question": "Are you hungry now?", "accept": ["\\b(yes|no)\\b", "hungry"], "example": "Yes, I am. I'm very hungry." }
+        ]
+      },
+      {
+        "id": "s3", "type": "roleplay", "title": "Ordering at a café",
+        "instructions": "Estás en un café. Pide comida y bebida al mesero.",
+        "scene": "Llegas con hambre a un café en el parque central.",
+        "appName": "Waiter", "appVoice": "male",
+        "turns": [
+          { "role": "app", "text": "Good afternoon! What would you like?" },
+          { "role": "student", "expected": "I'd like ___, please.", "accept": ["i would like", "i'd like", "can i have", "i want", "please"], "example": "I'd like a cheese tortilla, please." },
+          { "role": "app", "text": "Sure. Anything to drink?" },
+          { "role": "student", "expected": "Yes, ___, please.", "accept": ["\\b(coffee|milk|juice|water|tea|pinolillo|soda)\\b", "\\b(yes|no)\\b"], "example": "Yes, an orange juice, please." },
+          { "role": "app", "text": "Here you are. Enjoy your meal!" },
+          { "role": "student", "expected": "Thank you! How much is it?", "accept": ["how much", "thank"] },
+          { "role": "app", "text": "It's seventy córdobas." },
+          { "role": "student", "expected": "Here you are.", "accept": ["here you are", "here", "thank", "ok", "okay"] },
+          { "role": "app", "text": "Thank you. Have a nice day!" },
+          { "role": "student", "expected": "You too. Goodbye!", "accept": ["you too", "bye", "thank"] }
+        ]
+      }
+    ]
+  },
+
+  "quiz": [
+    { "skill": "listening", "type": "listen-choice", "instructions": "Escucha y elige.", "items": [
+      { "audio": "bread", "options": [{ "emoji": "🍞", "text": "bread" }, { "emoji": "🧀", "text": "cheese" }, { "emoji": "🍚", "text": "rice" }], "answer": 0 } ] },
+    { "skill": "listening", "type": "listen-choice", "instructions": "Escucha y elige el precio.", "items": [
+      { "audio": "It's sixty córdobas.", "options": ["C$ 16", "C$ 60", "C$ 66"], "answer": 1 } ] },
+    { "skill": "listening", "type": "dictation", "instructions": "Escucha y escribe.", "items": [
+      { "answer": "I'd like some juice, please." } ] },
+    { "skill": "reading", "type": "reading", "instructions": "Lee y responde.",
+      "text": "Hi, I'm Diego. I love fruit, especially mangoes and bananas. But I hate vegetables!",
+      "questions": [ { "q": "What does Diego hate?", "options": ["Mangoes", "Bananas", "Vegetables"], "answer": 2 } ] },
+    { "skill": "reading", "type": "reading", "instructions": "Lee y responde.",
+      "text": "There is some rice and some cheese in the kitchen, but there aren't any eggs.",
+      "questions": [ { "q": "What is NOT in the kitchen?", "options": ["Rice", "Cheese", "Eggs"], "answer": 2 } ] },
+    { "skill": "writing", "type": "gap-fill", "instructions": "Elige some o any.", "items": [
+      { "text": "Is there ___ water?", "answers": ["any"], "wordBank": ["some", "any"] } ] },
+    { "skill": "writing", "type": "gap-fill", "instructions": "Elige la forma correcta.", "items": [
+      { "text": "My father ___ coffee.", "answers": ["loves"], "wordBank": ["love", "loves"] } ] },
+    { "skill": "writing", "type": "word-order", "instructions": "Ordena las palabras.", "items": [
+      { "answer": "I don't like soda." } ] },
+    { "skill": "speaking", "type": "shadowing", "instructions": "Escucha y repite.", "items": [
+      { "text": "I'd like a glass of water, please." } ] },
+    { "skill": "speaking", "type": "speak-answer", "instructions": "Responde en voz alta.", "items": [
+      { "question": "What do you usually eat for breakfast?", "accept": ["\\b(rice|beans|bread|cheese|eggs?|gallo pinto|tortillas?|fruit|cereal|pancakes?)\\b", "breakfast"], "example": "I usually eat gallo pinto with eggs." } ] }
+  ]
+}

@@ -1,6 +1,6 @@
 // Service worker: guarda la app en el celular para usarla sin internet.
 // Si cambias archivos y quieres que todos reciban la versión nueva, sube el número de CACHE.
-const CACHE = 'english7-v4';
+const CACHE = 'english7-v5';
 
 const ASSETS = [
   './',
@@ -15,7 +15,7 @@ const ASSETS = [
   'js/exercises/reading.js', 'js/exercises/match.js', 'js/exercises/gap-fill.js',
   'js/exercises/word-order.js', 'js/exercises/form-fill.js', 'js/exercises/guided-writing.js',
   'js/exercises/shadowing.js', 'js/exercises/speak-answer.js', 'js/exercises/roleplay.js',
-  'data/units.json', 'data/unit1.json', 'data/unit2.json', 'data/unit3.json', 'data/unit4.json',
+  'data/units.json', 'data/unit1.json', 'data/unit2.json', 'data/unit3.json', 'data/unit4.json', 'data/unit5.json',
   'assets/icons/icon.svg', 'assets/icons/icon-192.png', 'assets/icons/icon-512.png', 'assets/icons/icon-maskable-512.png'
 ];
 

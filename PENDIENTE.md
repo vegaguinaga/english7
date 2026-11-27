@@ -19,7 +19,7 @@
 
 - `README.md` en español: abrir, publicar (GitHub Pages / Netlify), instalar, modo docente y cómo editar o agregar unidades.
 
-- Publicada en GitHub Pages: https://vegaguinaga.github.io/cristel/ (repo público; `.nojekyll` es necesario).
+- Publicada en GitHub Pages: https://vegaguinaga.github.io/english7/ (repo público; `.nojekyll` es necesario).
 
 ## Falta
 1. Probar en un celular real la voz (TTS) y el micrófono: en la prueba automática se simularon.
